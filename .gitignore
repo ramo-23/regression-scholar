@@ -1,5 +1,83 @@
-"*.pyc" 
-"__pycache__/" 
-"*.egg-info/" 
-"data/papers/" 
-".env" 
+# =========================
+# Python bytecode & caches
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# PyCharm / VSCode / IDEs
+# =========================
+.idea/
+.vscode/
+*.code-workspace
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Distribution / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Project specific
+# =========================
+data/papers/
+data/processed/
+data/embeddings/
+data/chroma/
+*.sqlite3
+
+# =========================
+# Secrets
+# =========================
+.env
+*.key
+*.pem
