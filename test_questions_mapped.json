@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "question": "What is ridge regression?",
+    "category": "definition",
+    "expected_concepts": [
+      "regularization",
+      "L2 penalty",
+      "shrinkage"
+    ],
+    "relevant_papers": [
+      "1509.09169v8",
+      "1507.03003v2",
+      "2009.08071v2",
+      "1409.2437v5",
+      "1608.00621v3",
+      "2408.13474v2"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Compare ridge and LASSO",
+    "category": "comparison",
+    "expected_concepts": [
+      "L1 vs L2",
+      "variable selection",
+      "sparsity"
+    ],
+    "relevant_papers": [
+      "1509.09169v8",
+      "1507.03003v2",
+      "2009.08071v2",
+      "1409.2437v5",
+      "1608.00621v3",
+      "2408.13474v2",
+      "1108.4559v2",
+      "1010.3320v2",
+      "1910.01805v2",
+      "2003.14118v1",
+      "2512.10632v1",
+      "2408.13474v2"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the bias-variance tradeoff?",
+    "category": "concept",
+    "expected_concepts": [
+      "bias",
+      "variance",
+      "model complexity",
+      "regularization"
+    ],
+    "relevant_papers": [
+      "1507.03003v2",
+      "1311.2791v1",
+      "1509.09169v8"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "When should I use LASSO vs ridge regression?",
+    "category": "application",
+    "expected_concepts": [
+      "sparsity assumption",
+      "feature selection",
+      "collinearity"
+    ],
+    "relevant_papers": [
+      "1509.09169v8",
+      "1507.03003v2",
+      "2009.08071v2",
+      "1409.2437v5",
+      "1608.00621v3",
+      "2408.13474v2",
+      "1108.4559v2",
+      "1010.3320v2",
+      "1910.01805v2",
+      "2003.14118v1",
+      "2512.10632v1",
+      "2408.13474v2"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is elastic net regression?",
+    "category": "definition",
+    "expected_concepts": [
+      "L1 and L2 penalty",
+      "combination",
+      "regularization"
+    ],
+    "relevant_papers": [
+      "2408.13474v2",
+      "2512.10632v1"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "How does regularization affect overfitting?",
+    "category": "concept",
+    "expected_concepts": [
+      "overfitting",
+      "generalization",
+      "penalty term"
+    ],
+    "relevant_papers": [
+      "2310.10807v1",
+      "1311.2791v1",
+      "2305.18496v2",
+      "1509.09169v8",
+      "1507.03003v2",
+      "2009.08071v2"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is cross-validation in the context of regression?",
+    "category": "method",
+    "expected_concepts": [
+      "hyperparameter tuning",
+      "validation",
+      "model selection"
+    ],
+    "relevant_papers": [
+      "1409.2437v5",
+      "1601.06722v2"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Explain the LASSO solution path",
+    "category": "technical",
+    "expected_concepts": [
+      "lambda",
+      "coefficient trajectory",
+      "shrinkage"
+    ],
+    "relevant_papers": [
+      "1108.4559v2",
+      "1010.3320v2",
+      "1910.01805v2",
+      "2003.14118v1"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What are the computational aspects of ridge regression?",
+    "category": "technical",
+    "expected_concepts": [
+      "closed-form solution",
+      "computational complexity"
+    ],
+    "relevant_papers": [
+      "1509.09169v8",
+      "1409.2437v5",
+      "1608.00621v3"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How do you choose the regularization parameter?",
+    "category": "application",
+    "expected_concepts": [
+      "cross-validation",
+      "tuning",
+      "lambda",
+      "optimization"
+    ],
+    "relevant_papers": [
+      "1409.2437v5",
+      "2009.08071v2"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is kernel ridge regression?",
+    "category": "definition",
+    "expected_concepts": [
+      "kernel trick",
+      "non-linear",
+      "ridge regression"
+    ],
+    "relevant_papers": [
+      "1608.00621v3",
+      "1907.02242v2",
+      "2310.13966v3",
+      "1710.07004v2",
+      "1509.09169v8"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How do Gaussian processes relate to regression?",
+    "category": "concept",
+    "expected_concepts": [
+      "probabilistic",
+      "uncertainty",
+      "kernel methods"
+    ],
+    "relevant_papers": [
+      "1302.4245v3",
+      "1912.06552v1",
+      "1911.00955v2",
+      "2002.02826v3",
+      "1911.09946v3"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is the difference between group LASSO and standard LASSO?",
+    "category": "technical",
+    "expected_concepts": [
+      "group structure",
+      "variable selection",
+      "penalty"
+    ],
+    "relevant_papers": [
+      "1010.3320v2",
+      "1108.4559v2"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Explain degrees of freedom in regularized regression",
+    "category": "concept",
+    "expected_concepts": [
+      "degrees of freedom",
+      "model complexity",
+      "regularization"
+    ],
+    "relevant_papers": [
+      "1311.2791v1"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is ridge regression debiasing?",
+    "category": "technical",
+    "expected_concepts": [
+      "bias correction",
+      "estimation",
+      "inference"
+    ],
+    "relevant_papers": [
+      "2009.08071v2"
+    ]
+  }
+]
