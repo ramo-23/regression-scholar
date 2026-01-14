@@ -1,0 +1,15 @@
+<div class="card question-root">
+  <label class="label">Ask ScholarAI</label>
+  <textarea
+    class="input-textarea"
+    rows="6"
+    [(ngModel)]="text"
+    placeholder="Ask a research question about regression, LASSO, ridge, elastic net..."
+    (keydown.enter)="onEnter($event)"
+    [disabled]="loading"
+  ></textarea>
+
+  <div class="actions">
+    <button (click)="submit()" [disabled]="loading || !text.trim()">Ask ScholarAI</button>
+  </div>
+</div>

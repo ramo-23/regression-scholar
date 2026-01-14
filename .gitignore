@@ -69,10 +69,11 @@ desktop.ini
 # =========================
 # Project specific
 # =========================
-data/papers/
-data/processed/
-data/embeddings/
-data/chroma/
+backend/src/data/papers/
+backend/src/data/processed/
+backend/src/data/embeddings/
+backend/src/data/chroma/
+backend/data/chroma/
 *.sqlite3
 
 # =========================
@@ -81,3 +82,16 @@ data/chroma/
 .env
 *.key
 *.pem
+
+# =========================
+# Angular / Frontend
+# =========================
+frontend/scholar-ui/node_modules/
+frontend/scholar-ui/dist/
+frontend/scholar-ui/.angular/
+frontend/scholar-ui/.vscode/
+frontend/scholar-ui/npm-debug.log*
+frontend/scholar-ui/yarn-debug.log*
+frontend/scholar-ui/yarn-error.log*
+frontend/scholar-ui/.env
+backend/src/data/papers/2512.15920v1.pdf

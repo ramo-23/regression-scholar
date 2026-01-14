@@ -1,0 +1,6 @@
+<div class="card suggestions-root">
+  <div class="title">Suggested Questions</div>
+  <div class="chips">
+    <button *ngFor="let s of suggestions" (click)="select(s)" class="chip">{{ s }}</button>
+  </div>
+</div>

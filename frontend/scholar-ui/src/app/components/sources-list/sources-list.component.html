@@ -1,0 +1,10 @@
+<div *ngIf="sources?.length" class="card sources-root">
+  <div class="title">Sources</div>
+  <div class="list">
+    <div *ngFor="let s of sources" class="source-item">
+      <div class="source-title">{{ s.title }}</div>
+      <div class="muted meta">{{ s.authors }} <span *ngIf="s.section">• {{ s.section }}</span></div>
+      <div class="open"><a [href]="s.arxiv_url" target="_blank" rel="noopener" class="muted">Open on arXiv</a></div>
+    </div>
+  </div>
+</div>

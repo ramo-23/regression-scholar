@@ -1,0 +1,22 @@
+<div class="card answer-root">
+  <div class="header">
+    <div class="title">Expert Answer</div>
+  </div>
+
+  <div class="content" role="status" aria-live="polite">
+    <ng-container *ngIf="loading">
+      <div class="loading-row">
+        <div class="spinner" aria-hidden="true"></div>
+        <div class="muted">Analyzing academic papers and generating expert answer...</div>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="!loading && answer">
+      <div [innerHTML]="safeHtml"></div>
+    </ng-container>
+
+    <ng-container *ngIf="!loading && !answer">
+      <div class="muted">Enter a question to get a research-backed answer.</div>
+    </ng-container>
+  </div>
+</div>

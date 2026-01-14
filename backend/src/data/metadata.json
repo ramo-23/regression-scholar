@@ -1,0 +1,2118 @@
+[
+  {
+    "arxiv_id": "2012.10249v5",
+    "title": "Reduced-Rank Tensor-on-Tensor Regression and Tensor-variate Analysis of Variance",
+    "authors": [
+      "Carlos Llosa-Vite",
+      "Ranjan Maitra"
+    ],
+    "abstract": "Fitting regression models with many multivariate responses and covariates can be challenging, but such responses and covariates sometimes have tensor-variate structure. We extend the classical multivariate regression model to exploit such structure in two ways: first, we impose four types of low-rank tensor formats on the regression coefficients. Second, we model the errors using the tensor-variate normal distribution that imposes a Kronecker separable format on the covariance matrix. We obtain maximum likelihood estimators via block-relaxation algorithms and derive their computational complexity and asymptotic distributions. Our regression framework enables us to formulate tensor-variate analysis of variance (TANOVA) methodology. This methodology, when applied in a one-way TANOVA layout, enables us to identify cerebral regions significantly associated with the interaction of suicide attempters or non-attemptor ideators and positive-, negative- or death-connoting words in a functional Magnetic Resonance Imaging study. Another application uses three-way TANOVA on the Labeled Faces in the Wild image dataset to distinguish facial characteristics related to ethnic origin, age group and gender.",
+    "published": "2020-12-18",
+    "categories": [
+      "stat.ME",
+      "math.ST",
+      "physics.data-an",
+      "stat.CO",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2012.10249v5.pdf"
+  },
+  {
+    "arxiv_id": "1608.00621v3",
+    "title": "Efficient Multiple Incremental Computation for Kernel Ridge Regression with Bayesian Uncertainty Modeling",
+    "authors": [
+      "Bo-Wei Chen",
+      "Nik Nailah Binti Abdullah",
+      "Sangoh Park"
+    ],
+    "abstract": "This study presents an efficient incremental/decremental approach for big streams based on Kernel Ridge Regression (KRR), a frequently used data analysis in cloud centers. To avoid reanalyzing the whole dataset whenever sensors receive new training data, typical incremental KRR used a single-instance mechanism for updating an existing system. However, this inevitably increased redundant computational time, not to mention applicability to big streams. To this end, the proposed mechanism supports incremental/decremental processing for both single and multiple samples (i.e., batch processing). A large scale of data can be divided into batches, processed by a machine, without sacrificing the accuracy. Moreover, incremental/decremental analyses in empirical and intrinsic space are also proposed in this study to handle different types of data either with a large number of samples or high feature dimensions, whereas typical methods focused only on one type. At the end of this study, we further the proposed mechanism to statistical Kernelized Bayesian Regression, so that uncertainty modeling with incremental/decremental computation becomes applicable. Experimental results showed that computational time was significantly reduced, better than the original nonincremental design and the typical single incremental method. Furthermore, the accuracy of the proposed method remained the same as the baselines. This implied that the system enhanced efficiency without sacrificing the accuracy. These findings proved that the proposed method was appropriate for variable streaming data analysis, thereby demonstrating the effectiveness of the proposed method.",
+    "published": "2016-08-01",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1608.00621v3.pdf"
+  },
+  {
+    "arxiv_id": "2210.06831v1",
+    "title": "Multi-Target XGBoostLSS Regression",
+    "authors": [
+      "Alexander M\u00e4rz"
+    ],
+    "abstract": "Current implementations of Gradient Boosting Machines are mostly designed for single-target regression tasks and commonly assume independence between responses when used in multivariate settings. As such, these models are not well suited if non-negligible dependencies exist between targets. To overcome this limitation, we present an extension of XGBoostLSS that models multiple targets and their dependencies in a probabilistic regression setting. Empirical results show that our approach outperforms existing GBMs with respect to runtime and compares well in terms of accuracy.",
+    "published": "2022-10-13",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2210.06831v1.pdf"
+  },
+  {
+    "arxiv_id": "1304.5637v1",
+    "title": "Tucker Tensor Regression and Neuroimaging Analysis",
+    "authors": [
+      "Xiaoshan Li",
+      "Hua Zhou",
+      "Lexin Li"
+    ],
+    "abstract": "Large-scale neuroimaging studies have been collecting brain images of study individuals, which take the form of two-dimensional, three-dimensional, or higher dimensional arrays, also known as tensors. Addressing scientific questions arising from such data demands new regression models that take multidimensional arrays as covariates. Simply turning an image array into a long vector causes extremely high dimensionality that compromises classical regression methods, and, more seriously, destroys the inherent spatial structure of array data that possesses wealth of information. In this article, we propose a family of generalized linear tensor regression models based upon the Tucker decomposition of regression coefficient arrays. Effectively exploiting the low rank structure of tensor covariates brings the ultrahigh dimensionality to a manageable level that leads to efficient estimation. We demonstrate, both numerically that the new model could provide a sound recovery of even high rank signals, and asymptotically that the model is consistently estimating the best Tucker structure approximation to the full array model in the sense of Kullback-Liebler distance. The new model is also compared to a recently proposed tensor regression model that relies upon an alternative CANDECOMP/PARAFAC (CP) decomposition.",
+    "published": "2013-04-20",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1304.5637v1.pdf"
+  },
+  {
+    "arxiv_id": "2507.20357v1",
+    "title": "Wafer Defect Root Cause Analysis with Partial Trajectory Regression",
+    "authors": [
+      "Kohei Miyaguchi",
+      "Masao Joko",
+      "Rebekah Sheraw",
+      "Tsuyoshi Id\u00e9"
+    ],
+    "abstract": "Identifying upstream processes responsible for wafer defects is challenging due to the combinatorial nature of process flows and the inherent variability in processing routes, which arises from factors such as rework operations and random process waiting times. This paper presents a novel framework for wafer defect root cause analysis, called Partial Trajectory Regression (PTR). The proposed framework is carefully designed to address the limitations of conventional vector-based regression models, particularly in handling variable-length processing routes that span a large number of heterogeneous physical processes. To compute the attribution score of each process given a detected high defect density on a specific wafer, we propose a new algorithm that compares two counterfactual outcomes derived from partial process trajectories. This is enabled by new representation learning methods, proc2vec and route2vec. We demonstrate the effectiveness of the proposed framework using real wafer history data from the NY CREATES fab in Albany.",
+    "published": "2025-07-27",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2507.20357v1.pdf"
+  },
+  {
+    "arxiv_id": "1612.06850v2",
+    "title": "Extremal Quantile Regression: An Overview",
+    "authors": [
+      "Victor Chernozhukov",
+      "Iv\u00e1n Fern\u00e1ndez-Val",
+      "Tetsuya Kaji"
+    ],
+    "abstract": "Extremal quantile regression, i.e. quantile regression applied to the tails of the conditional distribution, counts with an increasing number of economic and financial applications such as value-at-risk, production frontiers, determinants of low infant birth weights, and auction models. This chapter provides an overview of recent developments in the theory and empirics of extremal quantile regression. The advances in the theory have relied on the use of extreme value approximations to the law of the Koenker and Bassett (1978) quantile regression estimator. Extreme value laws not only have been shown to provide more accurate approximations than Gaussian laws at the tails, but also have served as the basis to develop bias corrected estimators and inference methods using simulation and suitable variations of bootstrap and subsampling. The applicability of these methods is illustrated with two empirical examples on conditional value-at-risk and financial contagion.",
+    "published": "2016-12-20",
+    "categories": [
+      "stat.ME",
+      "econ.EM"
+    ],
+    "pdf_path": "data/papers\\1612.06850v2.pdf"
+  },
+  {
+    "arxiv_id": "1701.08862v3",
+    "title": "How to define and test an Indirect Moderation model: the missing link in regression-based path models",
+    "authors": [
+      "Geert H. van Kollenburg",
+      "Marcel A. Croon"
+    ],
+    "abstract": "Two of the most important extensions of the basic regression model are moderated effects (due to interactions) and mediated effects (i.e. indirect effects). Combinations of these effects may also be present. In this work, an important, yet missing combination is presented that can determine whether a moderating effect itself is mediated by another variable. This 'indirect moderation' model can be assessed by a four-step decision tree which guides the user through the necessary regression analyses in order to infer or refute indirect moderation. A simple simulation experiment shows how the method performs under several basic scenarios. Analysis of an empirical data set shows that the indirect moderation model is extremely valuable in applied research.",
+    "published": "2017-01-30",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1701.08862v3.pdf"
+  },
+  {
+    "arxiv_id": "1601.06722v2",
+    "title": "Optimal designs for comparing regression models with correlated observations",
+    "authors": [
+      "Holger Dette",
+      "Kirsten Schorning",
+      "Maria Konstantinou"
+    ],
+    "abstract": "We consider the problem of efficient statistical inference for comparing two regression curves estimated from two samples of dependent measurements. Based on a representation of the best pair of linear unbiased estimators in continuous time models as a stochastic integral, an efficient pair of linear unbiased estimators with corresponding optimal designs for finite sample size is constructed. This pair minimises the width of the confidence band for the difference between the estimated curves. We thus extend results readily available in the literature to the case of correlated observations and provide an easily implementable and efficient solution. The advantages of using such pairs of estimators with corresponding optimal designs for the comparison of regression models are illustrated via numerical examples.",
+    "published": "2016-01-25",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1601.06722v2.pdf"
+  },
+  {
+    "arxiv_id": "2510.07895v1",
+    "title": "Adaptive Optimizable Gaussian Process Regression Linear Least Squares Regression Filtering Method for SEM Images",
+    "authors": [
+      "D. Chee Yong Ong",
+      "I. Bukhori",
+      "K. S. Sim",
+      "K. Beng Gan"
+    ],
+    "abstract": "Scanning Electron Microscopy (SEM) images often suffer from noise contamination, which degrades image quality and affects further analysis. This research presents a complete approach to estimate their Signal-to-Noise Ratio (SNR) and noise variance (NV), and enhance image quality using NV-guided Wiener filter. The main idea of this study is to use a good SNR estimation technique and infuse a machine learning model to estimate NV of the SEM image, which then guides the wiener filter to remove the noise, providing a more robust and accurate SEM image filtering pipeline. First, we investigate five different SNR estimation techniques, namely Nearest Neighbourhood (NN) method, First-Order Linear Interpolation (FOL) method, Nearest Neighbourhood with First-Order Linear Interpolation (NN+FOL) method, Non-Linear Least Squares Regression (NLLSR) method, and Linear Least Squares Regression (LSR) method. It is shown that LSR method to perform better than the rest. Then, Support Vector Machines (SVM) and Gaussian Process Regression (GPR) are tested by pairing it with LSR. In this test, the Optimizable GPR model shows the highest accuracy and it stands as the most effective solution for NV estimation. Combining these results lead to the proposed Adaptive Optimizable Gaussian Process Regression Linear Least Squares Regression (AO-GPRLLSR) Filtering pipeline. The AO-GPRLLSR method generated an estimated noise variance which served as input to NV-guided Wiener filter for improving the quality of SEM images. The proposed method is shown to achieve notable success in estimating SNR and NV of SEM images and leads to lower Mean Squared Error (MSE) after the filtering process.",
+    "published": "2025-10-09",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2510.07895v1.pdf"
+  },
+  {
+    "arxiv_id": "1710.07004v2",
+    "title": "Modal Regression using Kernel Density Estimation: a Review",
+    "authors": [
+      "Yen-Chi Chen"
+    ],
+    "abstract": "We review recent advances in modal regression studies using kernel density estimation. Modal regression is an alternative approach for investigating relationship between a response variable and its covariates. Specifically, modal regression summarizes the interactions between the response variable and covariates using the conditional mode or local modes. We first describe the underlying model of modal regression and its estimators based on kernel density estimation. We then review the asymptotic properties of the estimators and strategies for choosing the smoothing bandwidth. We also discuss useful algorithms and similar alternative approaches for modal regression, and propose future direction in this field.",
+    "published": "2017-10-19",
+    "categories": [
+      "stat.ME",
+      "econ.EM"
+    ],
+    "pdf_path": "data/papers\\1710.07004v2.pdf"
+  },
+  {
+    "arxiv_id": "1406.0156v2",
+    "title": "$l_1$-regularized Outlier Isolation and Regression",
+    "authors": [
+      "Sheng Han",
+      "Suzhen Wang",
+      "Xinyu Wu"
+    ],
+    "abstract": "This paper proposed a new regression model called $l_1$-regularized outlier isolation and regression (LOIRE) and a fast algorithm based on block coordinate descent to solve this model. Besides, assuming outliers are gross errors following a Bernoulli process, this paper also presented a Bernoulli estimate model which, in theory, should be very accurate and robust due to its complete elimination of affections caused by outliers. Though this Bernoulli estimate is hard to solve, it could be approximately achieved through a process which takes LOIRE as an important intermediate step. As a result, the approximate Bernoulli estimate is a good combination of Bernoulli estimate's accuracy and LOIRE regression's efficiency with several simulations conducted to strongly verify this point. Moreover, LOIRE can be further extended to realize robust rank factorization which is powerful in recovering low-rank component from massive corruptions. Extensive experimental results showed that the proposed method outperforms state-of-the-art methods like RPCA and GoDec in the aspect of computation speed with a competitive performance.",
+    "published": "2014-06-01",
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1406.0156v2.pdf"
+  },
+  {
+    "arxiv_id": "1912.00524v1",
+    "title": "Factor Analysis on Citation, Using a Combined Latent and Logistic Regression Model",
+    "authors": [
+      "Namjoon Suh",
+      "Xiaoming Huo",
+      "Eric Heim",
+      "Lee Seversky"
+    ],
+    "abstract": "We propose a combined model, which integrates the latent factor model and the logistic regression model, for the citation network. It is noticed that neither a latent factor model nor a logistic regression model alone is sufficient to capture the structure of the data. The proposed model has a latent (i.e., factor analysis) model to represents the main technological trends (a.k.a., factors), and adds a sparse component that captures the remaining ad-hoc dependence. Parameter estimation is carried out through the construction of a joint-likelihood function of edges and properly chosen penalty terms. The convexity of the objective function allows us to develop an efficient algorithm, while the penalty terms push towards a low-dimensional latent component and a sparse graphical structure. Simulation results show that the proposed method works well in practical situations. The proposed method has been applied to a real application, which contains a citation network of statisticians (Ji and Jin, 2016). Some interesting findings are reported.",
+    "published": "2019-12-02",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1912.00524v1.pdf"
+  },
+  {
+    "arxiv_id": "2012.05187v2",
+    "title": "Smoothed Quantile Regression with Large-Scale Inference",
+    "authors": [
+      "Xuming He",
+      "Xiaoou Pan",
+      "Kean Ming Tan",
+      "Wen-Xin Zhou"
+    ],
+    "abstract": "Quantile regression is a powerful tool for learning the relationship between a response variable and a multivariate predictor while exploring heterogeneous effects. In this paper, we consider statistical inference for quantile regression with large-scale data in the \"increasing dimension\" regime. We provide a comprehensive and in-depth analysis of a convolution-type smoothing approach that achieves adequate approximation to computation and inference for quantile regression. This method, which we refer to as {\\it{conquer}}, turns the non-differentiable quantile loss function into a twice-differentiable, convex and locally strongly convex surrogate, which admits a fast and scalable Barzilai-Borwein gradient-based algorithm to perform optimization, and multiplier bootstrap for statistical inference. Theoretically, we establish explicit non-asymptotic bounds on both estimation and Bahadur-Kiefer linearization errors, from which we show that the asymptotic normality of the conquer estimator holds under a weaker requirement on the number of the regressors than needed for conventional quantile regression. Moreover, we prove the validity of multiplier bootstrap confidence constructions. Our numerical studies confirm the conquer estimator as a practical and reliable approach to large-scale inference for quantile regression. Software implementing the methodology is available in the \\texttt{R} package \\texttt{conquer}.",
+    "published": "2020-12-09",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2012.05187v2.pdf"
+  },
+  {
+    "arxiv_id": "2111.04518v1",
+    "title": "Bayesian profile regression for clustering analysis involving a longitudinal response and explanatory variables",
+    "authors": [
+      "Ana\u00efs Rouanet",
+      "Rob Johnson",
+      "Magdalena E Strauss",
+      "Sylvia Richardson",
+      "Brian D Tom",
+      "Simon R White",
+      "Paul D W Kirk"
+    ],
+    "abstract": "The identification of sets of co-regulated genes that share a common function is a key question of modern genomics. Bayesian profile regression is a semi-supervised mixture modelling approach that makes use of a response to guide inference toward relevant clusterings. Previous applications of profile regression have considered univariate continuous, categorical, and count outcomes. In this work, we extend Bayesian profile regression to cases where the outcome is longitudinal (or multivariate continuous) and provide PReMiuMlongi, an updated version of PReMiuM, the R package for profile regression. We consider multivariate normal and Gaussian process regression response models and provide proof of principle applications to four simulation studies. The model is applied on budding yeast data to identify groups of genes co-regulated during the Saccharomyces cerevisiae cell cycle. We identify 4 distinct groups of genes associated with specific patterns of gene expression trajectories, along with the bound transcriptional factors, likely involved in their co-regulation process.",
+    "published": "2021-11-08",
+    "categories": [
+      "stat.ME",
+      "stat.AP"
+    ],
+    "pdf_path": "data/papers\\2111.04518v1.pdf"
+  },
+  {
+    "arxiv_id": "2212.13890v1",
+    "title": "ECG-Based Electrolyte Prediction: Evaluating Regression and Probabilistic Methods",
+    "authors": [
+      "Philipp Von Bachmann",
+      "Daniel Gedon",
+      "Fredrik K. Gustafsson",
+      "Ant\u00f4nio H. Ribeiro",
+      "Erik Lampa",
+      "Stefan Gustafsson",
+      "Johan Sundstr\u00f6m",
+      "Thomas B. Sch\u00f6n"
+    ],
+    "abstract": "Objective: Imbalances of the electrolyte concentration levels in the body can lead to catastrophic consequences, but accurate and accessible measurements could improve patient outcomes. While blood tests provide accurate measurements, they are invasive and the laboratory analysis can be slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely adopted tool which is quick and simple to acquire. However, the problem of estimating continuous electrolyte concentrations directly from ECGs is not well-studied. We therefore investigate if regression methods can be used for accurate ECG-based prediction of electrolyte concentrations. Methods: We explore the use of deep neural networks (DNNs) for this task. We analyze the regression performance across four electrolytes, utilizing a novel dataset containing over 290000 ECGs. For improved understanding, we also study the full spectrum from continuous predictions to binary classification of extreme concentration levels. To enhance clinical usefulness, we finally extend to a probabilistic regression approach and evaluate different uncertainty estimates. Results: We find that the performance varies significantly between different electrolytes, which is clinically justified in the interplay of electrolytes and their manifestation in the ECG. We also compare the regression accuracy with that of traditional machine learning models, demonstrating superior performance of DNNs. Conclusion: Discretization can lead to good classification performance, but does not help solve the original problem of predicting continuous concentration levels. While probabilistic regression demonstrates potential practical usefulness, the uncertainty estimates are not particularly well-calibrated. Significance: Our study is a first step towards accurate and reliable ECG-based prediction of electrolyte concentration levels.",
+    "published": "2022-12-21",
+    "categories": [
+      "eess.SP",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2212.13890v1.pdf"
+  },
+  {
+    "arxiv_id": "1701.01218v1",
+    "title": "Overlapping Cover Local Regression Machines",
+    "authors": [
+      "Mohamed Elhoseiny",
+      "Ahmed Elgammal"
+    ],
+    "abstract": "We present the Overlapping Domain Cover (ODC) notion for kernel machines, as a set of overlapping subsets of the data that covers the entire training set and optimized to be spatially cohesive as possible. We show how this notion benefit the speed of local kernel machines for regression in terms of both speed while achieving while minimizing the prediction error. We propose an efficient ODC framework, which is applicable to various regression models and in particular reduces the complexity of Twin Gaussian Processes (TGP) regression from cubic to quadratic. Our notion is also applicable to several kernel methods (e.g., Gaussian Process Regression(GPR) and IWTGP regression, as shown in our experiments). We also theoretically justified the idea behind our method to improve local prediction by the overlapping cover. We validated and analyzed our method on three benchmark human pose estimation datasets and interesting findings are discussed.",
+    "published": "2017-01-05",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "pdf_path": "data/papers\\1701.01218v1.pdf"
+  },
+  {
+    "arxiv_id": "2510.06762v2",
+    "title": "Function regression using the forward forward training and inferring paradigm",
+    "authors": [
+      "Shivam Padmani",
+      "Akshay Joshi"
+    ],
+    "abstract": "Function regression/approximation is a fundamental application of machine learning. Neural networks (NNs) can be easily trained for function regression using a sufficient number of neurons and epochs. The forward-forward learning algorithm is a novel approach for training neural networks without backpropagation, and is well suited for implementation in neuromorphic computing and physical analogs for neural networks. To the best of the authors' knowledge, the Forward Forward paradigm of training and inferencing NNs is currently only restricted to classification tasks. This paper introduces a new methodology for approximating functions (function regression) using the Forward-Forward algorithm. Furthermore, the paper evaluates the developed methodology on univariate and multivariate functions, and provides preliminary studies of extending the proposed Forward-Forward regression to Kolmogorov Arnold Networks, and Deep Physical Neural Networks.",
+    "published": "2025-10-08",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2510.06762v2.pdf"
+  },
+  {
+    "arxiv_id": "1507.03003v2",
+    "title": "High-Dimensional Asymptotics of Prediction: Ridge Regression and Classification",
+    "authors": [
+      "Edgar Dobriban",
+      "Stefan Wager"
+    ],
+    "abstract": "We provide a unified analysis of the predictive risk of ridge regression and regularized discriminant analysis in a dense random effects model. We work in a high-dimensional asymptotic regime where $p, n \\to \\infty$ and $p/n \\to \u03b3\\in (0, \\, \\infty)$, and allow for arbitrary covariance among the features. For both methods, we provide an explicit and efficiently computable expression for the limiting predictive risk, which depends only on the spectrum of the feature-covariance matrix, the signal strength, and the aspect ratio $\u03b3$. Especially in the case of regularized discriminant analysis, we find that predictive accuracy has a nuanced dependence on the eigenvalue distribution of the covariance matrix, suggesting that analyses based on the operator norm of the covariance matrix may not be sharp. Our results also uncover several qualitative insights about both methods: for example, with ridge regression, there is an exact inverse relation between the limiting predictive risk and the limiting estimation risk given a fixed signal strength. Our analysis builds on recent advances in random matrix theory.",
+    "published": "2015-07-10",
+    "categories": [
+      "math.ST",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1507.03003v2.pdf"
+  },
+  {
+    "arxiv_id": "2205.00605v3",
+    "title": "Cluster-based Regression using Variational Inference and Applications in Financial Forecasting",
+    "authors": [
+      "Udai Nagpal",
+      "Krishan Nagpal"
+    ],
+    "abstract": "This paper describes an approach to simultaneously identify clusters and estimate cluster-specific regression parameters from the given data. Such an approach can be useful in learning the relationship between input and output when the regression parameters for estimating output are different in different regions of the input space. Variational Inference (VI), a machine learning approach to obtain posterior probability densities using optimization techniques, is used to identify clusters of explanatory variables and regression parameters for each cluster. From these results, one can obtain both the expected value and the full distribution of predicted output. Other advantages of the proposed approach include the elegant theoretical solution and clear interpretability of results. The proposed approach is well-suited for financial forecasting where markets have different regimes (or clusters) with different patterns and correlations of market changes in each regime. In financial applications, knowledge about such clusters can provide useful insights about portfolio performance and identify the relative importance of variables in different market regimes. An illustrative example of predicting one-day S&P change is considered to illustrate the approach and compare the performance of the proposed approach with standard regression without clusters. Due to the broad applicability of the problem, its elegant theoretical solution, and the computational efficiency of the proposed algorithm, the approach may be useful in a number of areas extending beyond the financial domain.",
+    "published": "2022-05-02",
+    "categories": [
+      "q-fin.ST",
+      "cs.LG",
+      "stat.ME",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2205.00605v3.pdf"
+  },
+  {
+    "arxiv_id": "2108.03274v1",
+    "title": "Smooth Symbolic Regression: Transformation of Symbolic Regression into a Real-valued Optimization Problem",
+    "authors": [
+      "Erik Pitzer",
+      "Gabriel Kronberger"
+    ],
+    "abstract": "The typical methods for symbolic regression produce rather abrupt changes in solution candidates. In this work, we have tried to transform symbolic regression from an optimization problem, with a landscape that is so rugged that typical analysis methods do not produce meaningful results, to one that can be compared to typical and very smooth real-valued problems. While the ruggedness might not interfere with the performance of optimization, it restricts the possibilities of analysis. Here, we have explored different aspects of a transformation and propose a simple procedure to create real-valued optimization problems from symbolic regression problems.",
+    "published": "2021-08-06",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2108.03274v1.pdf"
+  },
+  {
+    "arxiv_id": "2512.15920v1",
+    "title": "Introduction to Symbolic Regression in the Physical Sciences",
+    "authors": [
+      "Deaglan J. Bartlett",
+      "Harry Desmond",
+      "Pedro G. Ferreira",
+      "Gabriel Kronberger"
+    ],
+    "abstract": "Symbolic regression (SR) has emerged as a powerful method for uncovering interpretable mathematical relationships from data, offering a novel route to both scientific discovery and efficient empirical modelling. This article introduces the Special Issue on Symbolic Regression for the Physical Sciences, motivated by the Royal Society discussion meeting held in April 2025. The contributions collected here span applications from automated equation discovery and emergent-phenomena modelling to the construction of compact emulators for computationally expensive simulations.\n  The introductory review outlines the conceptual foundations of SR, contrasts it with conventional regression approaches, and surveys its main use cases in the physical sciences, including the derivation of effective theories, empirical functional forms and surrogate models. We summarise methodological considerations such as search-space design, operator selection, complexity control, feature selection, and integration with modern AI approaches. We also highlight ongoing challenges, including scalability, robustness to noise, overfitting and computational complexity. Finally we emphasise emerging directions, particularly the incorporation of symmetry constraints, asymptotic behaviour and other theoretical information. Taken together, the papers in this Special Issue illustrate the accelerating progress of SR and its growing relevance across the physical sciences.",
+    "published": "2025-12-17",
+    "categories": [
+      "cs.LG",
+      "astro-ph.IM",
+      "cs.NE",
+      "physics.comp-ph",
+      "physics.data-an"
+    ],
+    "pdf_path": "data/papers\\2512.15920v1.pdf"
+  },
+  {
+    "arxiv_id": "1810.07913v2",
+    "title": "Robust Sparse Reduced Rank Regression in High Dimensions",
+    "authors": [
+      "Kean Ming Tan",
+      "Qiang Sun",
+      "Daniela Witten"
+    ],
+    "abstract": "We propose robust sparse reduced rank regression for analyzing large and complex high-dimensional data with heavy-tailed random noise. The proposed method is based on a convex relaxation of a rank- and sparsity-constrained non-convex optimization problem, which is then solved using the alternating direction method of multipliers algorithm. We establish non-asymptotic estimation error bounds under both Frobenius and nuclear norms in the high-dimensional setting. This is a major contribution over existing results in reduced rank regression, which mainly focus on rank selection and prediction consistency. Our theoretical results quantify the tradeoff between heavy-tailedness of the random noise and statistical bias. For random noise with bounded $(1+\u03b4)$th moment with $\u03b4\\in (0,1)$, the rate of convergence is a function of $\u03b4$, and is slower than the sub-Gaussian-type deviation bounds; for random noise with bounded second moment, we obtain a rate of convergence as if sub-Gaussian noise were assumed. Furthermore, the transition between the two regimes is smooth. We illustrate the performance of the proposed method via extensive numerical studies and a data application.",
+    "published": "2018-10-18",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1810.07913v2.pdf"
+  },
+  {
+    "arxiv_id": "1610.08663v4",
+    "title": "Regularization parameter selection in indirect regression by residual based bootstrap",
+    "authors": [
+      "Nicolai Bissantz",
+      "Justin Chown",
+      "Holger Dette"
+    ],
+    "abstract": "Residual-based analysis is generally considered a cornerstone of statistical methodology. For a special case of indirect regression, we investigate the residual-based empirical distribution function and provide a uniform expansion of this estimator, which is also shown to be asymptotically most precise. This investigation naturally leads to a completely data-driven technique for selecting a regularization parameter used in our indirect regression function estimator. The resulting methodology is based on a smooth bootstrap of the model residuals. A simulation study demonstrates the effectiveness of our approach.",
+    "published": "2016-10-27",
+    "categories": [
+      "stat.ME",
+      "math.ST"
+    ],
+    "pdf_path": "data/papers\\1610.08663v4.pdf"
+  },
+  {
+    "arxiv_id": "2310.13966v3",
+    "title": "Transfer Learning for Kernel-based Regression",
+    "authors": [
+      "Chao Wang",
+      "Caixing Wang",
+      "Xin He",
+      "Xingdong Feng"
+    ],
+    "abstract": "In recent years, transfer learning has garnered significant attention. Its ability to leverage knowledge from related studies to improve generalization performance in a target study has made it highly appealing. This paper focuses on investigating the transfer learning problem within the context of nonparametric regression over a reproducing kernel Hilbert space. The aim is to bridge the gap between practical effectiveness and theoretical guarantees. We specifically consider two scenarios: one where the transferable sources are known and another where they are unknown. For the known transferable source case, we propose a two-step kernel-based estimator by solely using kernel ridge regression. For the unknown case, we develop a novel method based on an efficient aggregation algorithm, which can automatically detect and alleviate the effects of negative sources. This paper provides the statistical properties of the desired estimators and establishes the minimax rate. Through extensive numerical experiments on synthetic data and real examples, we validate our theoretical findings and demonstrate the effectiveness of our proposed method.",
+    "published": "2023-10-21",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2310.13966v3.pdf"
+  },
+  {
+    "arxiv_id": "2412.06837v1",
+    "title": "Innovative Sentiment Analysis and Prediction of Stock Price Using FinBERT, GPT-4 and Logistic Regression: A Data-Driven Approach",
+    "authors": [
+      "Olamilekan Shobayo",
+      "Sidikat Adeyemi-Longe",
+      "Olusogo Popoola",
+      "Bayode Ogunleye"
+    ],
+    "abstract": "This study explores the comparative performance of cutting-edge AI models, i.e., Finaance Bidirectional Encoder representations from Transsformers (FinBERT), Generatice Pre-trained Transformer GPT-4, and Logistic Regression, for sentiment analysis and stock index prediction using financial news and the NGX All-Share Index data label. By leveraging advanced natural language processing models like GPT-4 and FinBERT, alongside a traditional machine learning model, Logistic Regression, we aim to classify market sentiment, generate sentiment scores, and predict market price movements. This research highlights global AI advancements in stock markets, showcasing how state-of-the-art language models can contribute to understanding complex financial data. The models were assessed using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. Results indicate that Logistic Regression outperformed the more computationally intensive FinBERT and predefined approach of versatile GPT-4, with an accuracy of 81.83% and a ROC AUC of 89.76%. The GPT-4 predefined approach exhibited a lower accuracy of 54.19% but demonstrated strong potential in handling complex data. FinBERT, while offering more sophisticated analysis, was resource-demanding and yielded a moderate performance. Hyperparameter optimization using Optuna and cross-validation techniques ensured the robustness of the models. This study highlights the strengths and limitations of the practical applications of AI approaches in stock market prediction and presents Logistic Regression as the most efficient model for this task, with FinBERT and GPT-4 representing emerging tools with potential for future exploration and innovation in AI-driven financial analytics",
+    "published": "2024-12-07",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-fin.ST",
+      "stat.AP",
+      "stat.CO"
+    ],
+    "pdf_path": "data/papers\\2412.06837v1.pdf"
+  },
+  {
+    "arxiv_id": "2009.07551v7",
+    "title": "Manipulation-Robust Regression Discontinuity Designs",
+    "authors": [
+      "Takuya Ishihara",
+      "Masayuki Sawada"
+    ],
+    "abstract": "We present simple low-level conditions for identification in regression discontinuity designs using a potential outcome framework for the manipulation of the running variable. Using this framework, we replace the existing identification statement with two restrictions on manipulation. Our framework highlights the critical role of the continuous density of the running variable in identification. In particular, we establish the low-level auxiliary assumption of the diagnostic density test under which the design may detect manipulation against identification and hence is manipulation-robust.",
+    "published": "2020-09-16",
+    "categories": [
+      "econ.EM",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2009.07551v7.pdf"
+  },
+  {
+    "arxiv_id": "2507.13033v1",
+    "title": "(Exhaustive) Symbolic Regression and model selection by minimum description length",
+    "authors": [
+      "Harry Desmond"
+    ],
+    "abstract": "Symbolic regression is the machine learning method for learning functions from data. After a brief overview of the symbolic regression landscape, I will describe the two main challenges that traditional algorithms face: they have an unknown (and likely significant) probability of failing to find any given good function, and they suffer from ambiguity and poorly-justified assumptions in their function-selection procedure. To address these I propose an exhaustive search and model selection by the minimum description length principle, which allows accuracy and complexity to be directly traded off by measuring each in units of information. I showcase the resulting publicly available Exhaustive Symbolic Regression algorithm on three open problems in astrophysics: the expansion history of the universe, the effective behaviour of gravity in galaxies and the potential of the inflaton field. In each case the algorithm identifies many functions superior to the literature standards. This general purpose methodology should find widespread utility in science and beyond.",
+    "published": "2025-07-17",
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2507.13033v1.pdf"
+  },
+  {
+    "arxiv_id": "2506.15881v3",
+    "title": "T-SHRED: Symbolic Regression for Regularization and Model Discovery with Transformer Shallow Recurrent Decoders",
+    "authors": [
+      "Alexey Yermakov",
+      "David Zoro",
+      "Mars Liyao Gao",
+      "J. Nathan Kutz"
+    ],
+    "abstract": "SHallow REcurrent Decoders (SHRED) are effective for system identification and forecasting from sparse sensor measurements. Such models are light-weight and computationally efficient, allowing them to be trained on consumer laptops. SHRED-based models rely on Recurrent Neural Networks (RNNs) and a simple Multi-Layer Perceptron (MLP) for the temporal encoding and spatial decoding respectively. Despite the relatively simple structure of SHRED, they are able to predict chaotic dynamical systems on different physical, spatial, and temporal scales directly from a sparse set of sensor measurements. In this work, we modify SHRED by leveraging transformers (T-SHRED) embedded with symbolic regression for the temporal encoding, circumventing auto-regressive long-term forecasting for physical data. This is achieved through a new sparse identification of nonlinear dynamics (SINDy) attention mechanism into T-SHRED to impose sparsity regularization on the latent space, which also allows for immediate symbolic interpretation. Symbolic regression improves model interpretability by learning and regularizing the dynamics of the latent space during training. We analyze the performance of T-SHRED on three different dynamical systems ranging from low-data to high-data regimes.",
+    "published": "2025-06-18",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2506.15881v3.pdf"
+  },
+  {
+    "arxiv_id": "2310.15204v1",
+    "title": "Mid-Long Term Daily Electricity Consumption Forecasting Based on Piecewise Linear Regression and Dilated Causal CNN",
+    "authors": [
+      "Zhou Lan",
+      "Ben Liu",
+      "Yi Feng",
+      "Danhuang Dong",
+      "Peng Zhang"
+    ],
+    "abstract": "Daily electricity consumption forecasting is a classical problem. Existing forecasting algorithms tend to have decreased accuracy on special dates like holidays. This study decomposes the daily electricity consumption series into three components: trend, seasonal, and residual, and constructs a two-stage prediction method using piecewise linear regression as a filter and Dilated Causal CNN as a predictor. The specific steps involve setting breakpoints on the time axis and fitting the piecewise linear regression model with one-hot encoded information such as month, weekday, and holidays. For the challenging prediction of the Spring Festival, distance is introduced as a variable using a third-degree polynomial form in the model. The residual sequence obtained in the previous step is modeled using Dilated Causal CNN, and the final prediction of daily electricity consumption is the sum of the two-stage predictions. Experimental results demonstrate that this method achieves higher accuracy compared to existing approaches.",
+    "published": "2023-10-23",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2310.15204v1.pdf"
+  },
+  {
+    "arxiv_id": "2503.15039v1",
+    "title": "A Note on Local Linear Regression for Time Series in Banach Spaces",
+    "authors": [
+      "Florian Heinrichs"
+    ],
+    "abstract": "This work extends local linear regression to Banach space-valued time series for estimating smoothly varying means and their derivatives in non-stationary data. The asymptotic properties of both the standard and bias-reduced Jackknife estimators are analyzed under mild moment conditions, establishing their convergence rates. Simulation studies assess the finite sample performance of these estimators and compare them with the Nadaraya-Watson estimator. Additionally, the proposed methods are applied to smooth EEG recordings for reconstructing eye movements and to video analysis for detecting pedestrians and abandoned objects.",
+    "published": "2025-03-19",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2503.15039v1.pdf"
+  },
+  {
+    "arxiv_id": "2310.10807v1",
+    "title": "Regularization properties of adversarially-trained linear regression",
+    "authors": [
+      "Ant\u00f4nio H. Ribeiro",
+      "Dave Zachariah",
+      "Francis Bach",
+      "Thomas B. Sch\u00f6n"
+    ],
+    "abstract": "State-of-the-art machine learning models can be vulnerable to very small input perturbations that are adversarially constructed. Adversarial training is an effective approach to defend against it. Formulated as a min-max problem, it searches for the best solution when the training data were corrupted by the worst-case attacks. Linear models are among the simple models where vulnerabilities can be observed and are the focus of our study. In this case, adversarial training leads to a convex optimization problem which can be formulated as the minimization of a finite sum. We provide a comparative analysis between the solution of adversarial training in linear regression and other regularization methods. Our main findings are that: (A) Adversarial training yields the minimum-norm interpolating solution in the overparameterized regime (more parameters than data), as long as the maximum disturbance radius is smaller than a threshold. And, conversely, the minimum-norm interpolator is the solution to adversarial training with a given radius. (B) Adversarial training can be equivalent to parameter shrinking methods (ridge regression and Lasso). This happens in the underparametrized region, for an appropriate choice of adversarial radius and zero-mean symmetrically distributed covariates. (C) For $\\ell_\\infty$-adversarial training -- as in square-root Lasso -- the choice of adversarial radius for optimal bounds does not depend on the additive noise variance. We confirm our theoretical findings with numerical examples.",
+    "published": "2023-10-16",
+    "categories": [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG",
+      "math.OC"
+    ],
+    "pdf_path": "data/papers\\2310.10807v1.pdf"
+  },
+  {
+    "arxiv_id": "1803.04839v3",
+    "title": "Optimal estimators in misspecified linear regression model with an application to real-world data",
+    "authors": [
+      "Manickavasagar Kayanan",
+      "Pushpakanthie Wijekoon"
+    ],
+    "abstract": "In this article, we propose the Sample Information Optimal Estimator (SIOE) and the Stochastic Restricted Optimal Estimator (SROE) for misspecified linear regression model when multicollinearity exists among explanatory variables. Further, we obtain the superiority conditions of proposed estimators over some other existing estimators in the Mean Square Error Matrix (MSEM) criterion in a standard form which can apply to all estimators considered in this study. Finally, a real world example and a Monte Carlo simulation study are presented for the proposed estimators to illustrate the theoretical results.",
+    "published": "2018-03-11",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1803.04839v3.pdf"
+  },
+  {
+    "arxiv_id": "1401.1130v3",
+    "title": "Event Conditional Correlation: Or How Non-Linear Linear Dependence Can Be",
+    "authors": [
+      "P-A. G. Maugis"
+    ],
+    "abstract": "Entries of datasets are often collected only if an event occurred: taking a survey, enrolling in an experiment and so forth. However, such partial samples bias classical correlation estimators. Here we show how to correct for such sampling effects through two complementary estimators of event conditional correlation: the correlation of two random variables conditional on a given event. First, we provide under minimal assumptions proof of consistency and asymptotic normality for the proposed estimators. Then, through synthetic examples, we show that these estimators behave well in small-sample and yield powerful methodologies for non-linear regression as well as dependence testing. Finally, by using the two estimators in tandem, we explore counterfactual dependence regimes in a financial dataset. By so doing we show that the contagion which took place during the 2007--2011 financial crisis cannot be explained solely by increased financial risk.",
+    "published": "2014-01-06",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1401.1130v3.pdf"
+  },
+  {
+    "arxiv_id": "2202.13603v2",
+    "title": "Optimal Online Generalized Linear Regression with Stochastic Noise and Its Application to Heteroscedastic Bandits",
+    "authors": [
+      "Heyang Zhao",
+      "Dongruo Zhou",
+      "Jiafan He",
+      "Quanquan Gu"
+    ],
+    "abstract": "We study the problem of online generalized linear regression in the stochastic setting, where the label is generated from a generalized linear model with possibly unbounded additive noise. We provide a sharp analysis of the classical follow-the-regularized-leader (FTRL) algorithm to cope with the label noise. More specifically, for $\u03c3$-sub-Gaussian label noise, our analysis provides a regret upper bound of $O(\u03c3^2 d \\log T) + o(\\log T)$, where $d$ is the dimension of the input vector, $T$ is the total number of rounds. We also prove a $\u03a9(\u03c3^2d\\log(T/d))$ lower bound for stochastic online linear regression, which indicates that our upper bound is nearly optimal. In addition, we extend our analysis to a more refined Bernstein noise condition. As an application, we study generalized linear bandits with heteroscedastic noise and propose an algorithm based on FTRL to achieve the first variance-aware regret bound.",
+    "published": "2022-02-28",
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2202.13603v2.pdf"
+  },
+  {
+    "arxiv_id": "2201.13004v5",
+    "title": "Improving Estimation Efficiency via Regression-Adjustment in Covariate-Adaptive Randomizations with Imperfect Compliance",
+    "authors": [
+      "Liang Jiang",
+      "Oliver B. Linton",
+      "Haihan Tang",
+      "Yichong Zhang"
+    ],
+    "abstract": "We investigate how to improve efficiency using regression adjustments with covariates in covariate-adaptive randomizations (CARs) with imperfect subject compliance. Our regression-adjusted estimators, which are based on the doubly robust moment for local average treatment effects, are consistent and asymptotically normal even with heterogeneous probability of assignment and misspecified regression adjustments. We propose an optimal but potentially misspecified linear adjustment and its further improvement via a nonlinear adjustment, both of which lead to more efficient estimators than the one without adjustments. We also provide conditions for nonparametric and regularized adjustments to achieve the semiparametric efficiency bound under CARs.",
+    "published": "2022-01-31",
+    "categories": [
+      "econ.EM",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2201.13004v5.pdf"
+  },
+  {
+    "arxiv_id": "2511.08424v1",
+    "title": "Identification of Empirical Constitutive Models for Age-Hardenable Aluminium Alloy and High-Chromium Martensitic Steel Using Symbolic Regression",
+    "authors": [
+      "Evgeniya Kabliman",
+      "Gabriel Kronberger"
+    ],
+    "abstract": "Process-structure-property relationships are fundamental in materials science and engineering and are key to the development of new and improved materials. Symbolic regression serves as a powerful tool for uncovering mathematical models that describe these relationships. It can automatically generate equations to predict material behaviour under specific manufacturing conditions and optimize performance characteristics such as strength and elasticity.\n  The present work illustrates how symbolic regression can derive constitutive models that describe the behaviour of various metallic alloys during plastic deformation. Constitutive modelling is a mathematical framework for understanding the relationship between stress and strain in materials under different loading conditions. In this study, two materials (age-hardenable aluminium alloy and high-chromium martensitic steel) and two different testing methods (compression and tension) are considered to obtain the required stress-strain data. The results highlight the benefits of using symbolic regression while also discussing potential challenges.",
+    "published": "2025-11-11",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2511.08424v1.pdf"
+  },
+  {
+    "arxiv_id": "1010.3320v2",
+    "title": "Exact block-wise optimization in group lasso and sparse group lasso for linear regression",
+    "authors": [
+      "Rina Foygel",
+      "Mathias Drton"
+    ],
+    "abstract": "The group lasso is a penalized regression method, used in regression problems where the covariates are partitioned into groups to promote sparsity at the group level. Existing methods for finding the group lasso estimator either use gradient projection methods to update the entire coefficient vector simultaneously at each step, or update one group of coefficients at a time using an inexact line search to approximate the optimal value for the group of coefficients when all other groups' coefficients are fixed. We present a new method of computation for the group lasso in the linear regression case, the Single Line Search (SLS) algorithm, which operates by computing the exact optimal value for each group (when all other coefficients are fixed) with one univariate line search. We perform simulations demonstrating that the SLS algorithm is often more efficient than existing computational methods. We also extend the SLS algorithm to the sparse group lasso problem via the Signed Single Line Search (SSLS) algorithm, and give theoretical results to support both algorithms.",
+    "published": "2010-10-16",
+    "categories": [
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1010.3320v2.pdf"
+  },
+  {
+    "arxiv_id": "1108.4559v2",
+    "title": "Optimal Algorithms for Ridge and Lasso Regression with Partially Observed Attributes",
+    "authors": [
+      "Elad Hazan",
+      "Tomer Koren"
+    ],
+    "abstract": "We consider the most common variants of linear regression, including Ridge, Lasso and Support-vector regression, in a setting where the learner is allowed to observe only a fixed number of attributes of each example at training time. We present simple and efficient algorithms for these problems: for Lasso and Ridge regression they need the same total number of attributes (up to constants) as do full-information algorithms, for reaching a certain accuracy. For Support-vector regression, we require exponentially less attributes compared to the state of the art. By that, we resolve an open problem recently posed by Cesa-Bianchi et al. (2010). Experiments show the theoretical bounds to be justified by superior performance compared to the state of the art.",
+    "published": "2011-08-23",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1108.4559v2.pdf"
+  },
+  {
+    "arxiv_id": "2305.18496v2",
+    "title": "Generalized equivalences between subsampling and ridge regularization",
+    "authors": [
+      "Pratik Patil",
+      "Jin-Hong Du"
+    ],
+    "abstract": "We establish precise structural and risk equivalences between subsampling and ridge regularization for ensemble ridge estimators. Specifically, we prove that linear and quadratic functionals of subsample ridge estimators, when fitted with different ridge regularization levels $\u03bb$ and subsample aspect ratios $\u03c8$, are asymptotically equivalent along specific paths in the $(\u03bb,\u03c8)$-plane (where $\u03c8$ is the ratio of the feature dimension to the subsample size). Our results only require bounded moment assumptions on feature and response distributions and allow for arbitrary joint distributions. Furthermore, we provide a data-dependent method to determine the equivalent paths of $(\u03bb,\u03c8)$. An indirect implication of our equivalences is that optimally tuned ridge regression exhibits a monotonic prediction risk in the data aspect ratio. This resolves a recent open problem raised by Nakkiran et al. for general data distributions under proportional asymptotics, assuming a mild regularity condition that maintains regression hardness through linearized signal-to-noise ratios.",
+    "published": "2023-05-29",
+    "categories": [
+      "math.ST",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2305.18496v2.pdf"
+  },
+  {
+    "arxiv_id": "1311.2791v1",
+    "title": "When Does More Regularization Imply Fewer Degrees of Freedom? Sufficient Conditions and Counter Examples from Lasso and Ridge Regression",
+    "authors": [
+      "Shachar Kaufman",
+      "Saharon Rosset"
+    ],
+    "abstract": "Regularization aims to improve prediction performance of a given statistical modeling approach by moving to a second approach which achieves worse training error but is expected to have fewer degrees of freedom, i.e., better agreement between training and prediction error. We show here, however, that this expected behavior does not hold in general. In fact, counter examples are given that show regularization can increase the degrees of freedom in simple situations, including lasso and ridge regression, which are the most common regularization approaches in use. In such situations, the regularization increases both training error and degrees of freedom, and is thus inherently without merit. On the other hand, two important regularization scenarios are described where the expected reduction in degrees of freedom is indeed guaranteed: (a) all symmetric linear smoothers, and (b) linear regression versus convex constrained linear regression (as in the constrained variant of ridge regression and lasso).",
+    "published": "2013-11-12",
+    "categories": [
+      "math.ST",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1311.2791v1.pdf"
+  },
+  {
+    "arxiv_id": "1509.09169v8",
+    "title": "Lecture notes on ridge regression",
+    "authors": [
+      "Wessel N. van Wieringen"
+    ],
+    "abstract": "The linear regression model cannot be fitted to high-dimensional data, as the high-dimensionality brings about empirical non-identifiability. Penalized regression overcomes this non-identifiability by augmentation of the loss function by a penalty (i.e. a function of regression coefficients). The ridge penalty is the sum of squared regression coefficients, giving rise to ridge regression. Here many aspect of ridge regression are reviewed e.g. moments, mean squared error, its equivalence to constrained estimation, and its relation to Bayesian regression. Finally, its behaviour and use are illustrated in simulation and on omics data. Subsequently, ridge regression is generalized to allow for a more general penalty. The ridge penalization framework is then translated to logistic regression and its properties are shown to carry over. To contrast ridge penalized estimation, the final chapters introduce its lasso counterpart and generalizations thereof.",
+    "published": "2015-09-30",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1509.09169v8.pdf"
+  },
+  {
+    "arxiv_id": "1910.01805v2",
+    "title": "On the Duality between Network Flows and Network Lasso",
+    "authors": [
+      "Alexander Jung"
+    ],
+    "abstract": "Many applications generate data with an intrinsic network structure such as time series data, image data or social network data. The network Lasso (nLasso) has been proposed recently as a method for joint clustering and optimization of machine learning models for networked data. The nLasso extends the Lasso from sparse linear models to clustered graph signals. This paper explores the duality of nLasso and network flow optimization. We show that, in a very precise sense, nLasso is equivalent to a minimum-cost flow problem on the data network structure. Our main technical result is a concise characterization of nLasso solutions via existence of certain network flows. The main conceptual result is a useful link between nLasso methods and basic graph algorithms such as clustering or maximum flow.",
+    "published": "2019-10-04",
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1910.01805v2.pdf"
+  },
+  {
+    "arxiv_id": "2512.10632v1",
+    "title": "Lasso-Ridge Refitting: A Two-Stage Estimator for High-Dimensional Linear Regression",
+    "authors": [
+      "Guo Liu"
+    ],
+    "abstract": "The least absolute shrinkage and selection operator (Lasso) is a popular method for high-dimensional statistics. However, it is known that the Lasso often has estimation bias and prediction error. To address such disadvantages, many alternatives and refitting strategies have been proposed and studied. This work introduces a novel Lasso--Ridge method. Our analysis indicates that the proposed estimator achieves improved prediction performance in a range of settings, including cases where the Lasso is tuned at its theoretical optimal rate \\(\\sqrt{\\log(p)/n}\\). Moreover, the proposed method retains several key advantages of the Lasso, such as prediction consistency and reliable variable selection under mild conditions. Through extensive simulations, we further demonstrate that our estimator outperforms the Lasso in both prediction and estimation accuracy, highlighting its potential as a powerful tool for high-dimensional linear regression.",
+    "published": "2025-12-11",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2512.10632v1.pdf"
+  },
+  {
+    "arxiv_id": "1409.2437v5",
+    "title": "Fast Marginal Likelihood Estimation of the Ridge Parameter(s) in Ridge Regression and Generalized Ridge Regression for Big Data",
+    "authors": [
+      "George Karabatsos"
+    ],
+    "abstract": "Unlike the ordinary least-squares (OLS) estimator for the linear model, a ridge regression linear model provides coefficient estimates via shrinkage, usually with improved mean-square and prediction error. This is true especially when the observed design matrix is ill-conditioned or singular, either as a result of highly-correlated covariates or the number of covariates exceeding the sample size. This paper introduces novel and fast marginal maximum likelihood (MML) algorithms for estimating the shrinkage parameter(s) for the Bayesian ridge and power ridge regression models, and an automatic plug-in MML estimator for the Bayesian generalized ridge regression model. With the aid of the singular value decomposition of the observed covariate design matrix, these MML estimation methods are quite fast even for data sets where either the sample size (n) or the number of covariates (p) is very large, and even when p>n. On several real data sets varying widely in terms of n and p, the computation times of the MML estimation methods for the three ridge models, respectively, are compared with the times of other methods for estimating the shrinkage parameter in ridge, LASSO and Elastic Net (EN) models, with the other methods based on minimizing prediction error according to cross-validation or information criteria. Also, the ridge, LASSO, and EN models, and their associated estimation methods, are compared in terms of prediction accuracy. Furthermore, a simulation study compares the ridge models under MML estimation, against the LASSO and EN models, in terms of their ability to differentiate between truly-significant covariates (i.e., with non-zero slope coefficients) and truly-insignificant covariates (with zero coefficients).",
+    "published": "2014-09-08",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1409.2437v5.pdf"
+  },
+  {
+    "arxiv_id": "2003.14118v1",
+    "title": "A flexible adaptive lasso Cox frailty model based on the full likelihood",
+    "authors": [
+      "Maike Hohberg",
+      "Andreas Groll"
+    ],
+    "abstract": "In this work a method to regularize Cox frailty models is proposed that accommodates time-varying covariates and time-varying coefficients and is based on the full instead of the partial likelihood. A particular advantage in this framework is that the baseline hazard can be explicitly modeled in a smooth, semi-parametric way, e.g. via P-splines. Regularization for variable selection is performed via a lasso penalty and via group lasso for categorical variables while a second penalty regularizes wiggliness of smooth estimates of time-varying coefficients and the baseline hazard. Additionally, adaptive weights are included to stabilize the estimation. The method is implemented in R as coxlasso and will be compared to other packages for regularized Cox regression. Existing packages, however, do not allow for the combination of different effects that are accommodated in coxlasso.",
+    "published": "2020-03-31",
+    "categories": [
+      "stat.ME",
+      "stat.CO"
+    ],
+    "pdf_path": "data/papers\\2003.14118v1.pdf"
+  },
+  {
+    "arxiv_id": "2408.13474v2",
+    "title": "Ridge, lasso, and elastic-net estimations of the modified Poisson and least-squares regressions for binary outcome data",
+    "authors": [
+      "Takahiro Kitano",
+      "Hisashi Noma"
+    ],
+    "abstract": "Logistic regression is a standard method in multivariate analysis for binary outcome data in epidemiological and clinical studies; however, the resultant odds-ratio estimates fail to provide directly interpretable effect measures. The modified Poisson and least-squares regressions are alternative standard methods that can provide risk-ratio and risk difference estimates without computational problems. However, the bias and invalid inference problems of these regression analyses under small or sparse data conditions (i.e.,the \"separation\" problem) have been insufficiently investigated. We show that the separation problem can adversely affect the inferences of the modified Poisson and least squares regressions, and to address these issues, we apply the ridge, lasso, and elastic-net estimating approaches to the two regression methods. As the methods are not founded on the maximum likelihood principle, we propose regularized quasi-likelihood approaches based on the estimating equations for these generalized linear models. The methods provide stable shrinkage estimates of risk ratios and risk differences even under separation conditions, and the lasso and elastic-net approaches enable simultaneous variable selection. We provide a bootstrap method to calculate the confidence intervals on the basis of the regularized quasi-likelihood estimation. The proposed methods are applied to a hematopoietic stem cell transplantation cohort study and the National Child Development Survey. We also provide an R package, regconfint, to implement these methods with simple commands.",
+    "published": "2024-08-24",
+    "categories": [
+      "stat.ME",
+      "stat.AP"
+    ],
+    "pdf_path": "data/papers\\2408.13474v2.pdf"
+  },
+  {
+    "arxiv_id": "2009.08071v2",
+    "title": "Ridge Regression Revisited: Debiasing, Thresholding and Bootstrap",
+    "authors": [
+      "Yunyi Zhang",
+      "Dimitris N. Politis"
+    ],
+    "abstract": "The success of the Lasso in the era of high-dimensional data can be attributed to its conducting an implicit model selection, i.e., zeroing out regression coefficients that are not significant. By contrast, classical ridge regression can not reveal a potential sparsity of parameters, and may also introduce a large bias under the high-dimensional setting. Nevertheless, recent work on the Lasso involves debiasing and thresholding, the latter in order to further enhance the model selection. As a consequence, ridge regression may be worth another look since -- after debiasing and thresholding -- it may offer some advantages over the Lasso, e.g., it can be easily computed using a closed-form expression. % and it has similar performance to threshold Lasso. In this paper, we define a debiased and thresholded ridge regression method, and prove a consistency result and a Gaussian approximation theorem. We further introduce a wild bootstrap algorithm to construct confidence regions and perform hypothesis testing for a linear combination of parameters. In addition to estimation, we consider the problem of prediction, and present a novel, hybrid bootstrap algorithm tailored for prediction intervals. Extensive numerical simulations further show that the debiased and thresholded ridge regression has favorable finite sample performance and may be preferable in some settings.",
+    "published": "2020-09-17",
+    "categories": [
+      "math.ST",
+      "stat.AP",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2009.08071v2.pdf"
+  },
+  {
+    "arxiv_id": "1706.02150v2",
+    "title": "A Bootstrap Lasso + Partial Ridge Method to Construct Confidence Intervals for Parameters in High-dimensional Sparse Linear Models",
+    "authors": [
+      "Hanzhong Liu",
+      "Xin Xu",
+      "Jingyi Jessica Li"
+    ],
+    "abstract": "Constructing confidence intervals for the coefficients of high-dimensional sparse linear models remains a challenge, mainly because of the complicated limiting distributions of the widely used estimators, such as the lasso. Several methods have been developed for constructing such intervals. Bootstrap lasso+ols is notable for its technical simplicity, good interpretability, and performance that is comparable with that of other more complicated methods. However, bootstrap lasso+ols depends on the beta-min assumption, a theoretic criterion that is often violated in practice. Thus, we introduce a new method, called bootstrap lasso+partial ridge, to relax this assumption. Lasso+partial ridge is a two-stage estimator. First, the lasso is used to select features. Then, the partial ridge is used to refit the coefficients. Simulation results show that bootstrap lasso+partial ridge outperforms bootstrap lasso+ols when there exist small, but nonzero coefficients, a common situation that violates the beta-min assumption. For such coefficients, the confidence intervals constructed using bootstrap lasso+partial ridge have, on average, $50\\%$ larger coverage probabilities than those of bootstrap lasso+ols. Bootstrap lasso+partial ridge also has, on average, $35\\%$ shorter confidence interval lengths than those of the de-sparsified lasso methods, regardless of whether the linear models are misspecified. Additionally, we provide theoretical guarantees for bootstrap lasso+partial ridge under appropriate conditions, and implement it in the R package \"HDCI.\"",
+    "published": "2017-06-07",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1706.02150v2.pdf"
+  },
+  {
+    "arxiv_id": "2006.00371v2",
+    "title": "Ridge Regularization: an Essential Concept in Data Science",
+    "authors": [
+      "Trevor Hastie"
+    ],
+    "abstract": "Ridge or more formally $\\ell_2$ regularization shows up in many areas of statistics and machine learning. It is one of those essential devices that any good data scientist needs to master for their craft. In this brief ridge fest I have collected together some of the magic and beauty of ridge that my colleagues and I have encountered over the past 40 years in applied statistics.",
+    "published": "2020-05-30",
+    "categories": [
+      "stat.ME",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2006.00371v2.pdf"
+  },
+  {
+    "arxiv_id": "1608.00619v2",
+    "title": "Recursion-Free Online Multiple Incremental/Decremental Analysis Based on Ridge Support Vector Learning",
+    "authors": [
+      "Bo-Wei Chen"
+    ],
+    "abstract": "This study presents a rapid multiple incremental and decremental mechanism based on Weight-Error Curves (WECs) for support-vector analysis. Recursion-free computation is proposed for predicting the Lagrangian multipliers of new samples. This study examines Ridge Support Vector Models, subsequently devising a recursion-free function derived from WECs. With the proposed function, all the new Lagrangian multipliers can be computed at once without using any gradual step sizes. Moreover, such a function relaxes a constraint, where the increment of new multiple Lagrangian multipliers should be the same in the previous work, thereby easily satisfying the requirement of KKT conditions. The proposed mechanism no longer requires typical bookkeeping strategies, which compute the step size by checking all the training samples in each incremental round.",
+    "published": "2016-08-01",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1608.00619v2.pdf"
+  },
+  {
+    "arxiv_id": "2405.07985v1",
+    "title": "Improved LARS algorithm for adaptive LASSO in the linear regression model",
+    "authors": [
+      "Manickavasagar Kayanan",
+      "Pushpakanthie Wijekoon"
+    ],
+    "abstract": "The adaptive LASSO has been used for consistent variable selection in place of LASSO in the linear regression model. In this article, we propose a modified LARS algorithm to combine adaptive LASSO with some biased estimators, namely the Almost Unbiased Ridge Estimator (AURE), Liu Estimator (LE), Almost Unbiased Liu Estimator (AULE), Principal Component Regression Estimator (PCRE), r-k class estimator, and r-d class estimator. Furthermore, we examine the performance of the proposed algorithm using a Monte Carlo simulation study and real-world examples.",
+    "published": "2024-05-13",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2405.07985v1.pdf"
+  },
+  {
+    "arxiv_id": "1112.1390v1",
+    "title": "An Identity for Kernel Ridge Regression",
+    "authors": [
+      "Fedor Zhdanov",
+      "Yuri Kalnishkan"
+    ],
+    "abstract": "This paper derives an identity connecting the square loss of ridge regression in on-line mode with the loss of the retrospectively best regressor. Some corollaries about the properties of the cumulative loss of on-line ridge regression are also obtained.",
+    "published": "2011-12-06",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1112.1390v1.pdf"
+  },
+  {
+    "arxiv_id": "2306.15915v1",
+    "title": "Transfer Learning with Random Coefficient Ridge Regression",
+    "authors": [
+      "Hongzhe Zhang",
+      "Hongzhe Li"
+    ],
+    "abstract": "Ridge regression with random coefficients provides an important alternative to fixed coefficients regression in high dimensional setting when the effects are expected to be small but not zeros. This paper considers estimation and prediction of random coefficient ridge regression in the setting of transfer learning, where in addition to observations from the target model, source samples from different but possibly related regression models are available. The informativeness of the source model to the target model can be quantified by the correlation between the regression coefficients. This paper proposes two estimators of regression coefficients of the target model as the weighted sum of the ridge estimates of both target and source models, where the weights can be determined by minimizing the empirical estimation risk or prediction risk. Using random matrix theory, the limiting values of the optimal weights are derived under the setting when $p/n \\rightarrow \u03b3$, where $p$ is the number of the predictors and $n$ is the sample size, which leads to an explicit expression of the estimation or prediction risks. Simulations show that these limiting risks agree very well with the empirical risks. An application to predicting the polygenic risk scores for lipid traits shows such transfer learning methods lead to smaller prediction errors than the single sample ridge regression or Lasso-based transfer learning.",
+    "published": "2023-06-28",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2306.15915v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.12429v2",
+    "title": "Sparse Private LASSO Logistic Regression",
+    "authors": [
+      "Amol Khanna",
+      "Fred Lu",
+      "Edward Raff",
+      "Brian Testa"
+    ],
+    "abstract": "LASSO regularized logistic regression is particularly useful for its built-in feature selection, allowing coefficients to be removed from deployment and producing sparse solutions. Differentially private versions of LASSO logistic regression have been developed, but generally produce dense solutions, reducing the intrinsic utility of the LASSO penalty. In this paper, we present a differentially private method for sparse logistic regression that maintains hard zeros. Our key insight is to first train a non-private LASSO logistic regression model to determine an appropriate privatized number of non-zero coefficients to use in final model selection. To demonstrate our method's performance, we run experiments on synthetic and real-world datasets.",
+    "published": "2023-04-24",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_path": "data/papers\\2304.12429v2.pdf"
+  },
+  {
+    "arxiv_id": "2110.13086v2",
+    "title": "Quantum Algorithms and Lower Bounds for Linear Regression with Norm Constraints",
+    "authors": [
+      "Yanlin Chen",
+      "Ronald de Wolf"
+    ],
+    "abstract": "Lasso and Ridge are important minimization problems in machine learning and statistics. They are versions of linear regression with squared loss where the vector $\u03b8\\in\\mathbb{R}^d$ of coefficients is constrained in either $\\ell_1$-norm (for Lasso) or in $\\ell_2$-norm (for Ridge). We study the complexity of quantum algorithms for finding $\\varepsilon$-minimizers for these minimization problems. We show that for Lasso we can get a quadratic quantum speedup in terms of $d$ by speeding up the cost-per-iteration of the Frank-Wolfe algorithm, while for Ridge the best quantum algorithms are linear in $d$, as are the best classical algorithms. As a byproduct of our quantum lower bound for Lasso, we also prove the first classical lower bound for Lasso that is tight up to polylog-factors.",
+    "published": "2021-10-25",
+    "categories": [
+      "quant-ph",
+      "cs.CC",
+      "cs.DS",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2110.13086v2.pdf"
+  },
+  {
+    "arxiv_id": "1803.06010v2",
+    "title": "Ridge Regression and Provable Deterministic Ridge Leverage Score Sampling",
+    "authors": [
+      "Shannon R. McCurdy"
+    ],
+    "abstract": "Ridge leverage scores provide a balance between low-rank approximation and regularization, and are ubiquitous in randomized linear algebra and machine learning. Deterministic algorithms are also of interest in the moderately big data regime, because deterministic algorithms provide interpretability to the practitioner by having no failure probability and always returning the same results.\n  We provide provable guarantees for deterministic column sampling using ridge leverage scores. The matrix sketch returned by our algorithm is a column subset of the original matrix, yielding additional interpretability. Like the randomized counterparts, the deterministic algorithm provides (1 + \u03b5) error column subset selection, (1 + \u03b5) error projection-cost preservation, and an additive-multiplicative spectral bound. We also show that under the assumption of power-law decay of ridge leverage scores, this deterministic algorithm is provably as accurate as randomized algorithms.\n  Lastly, ridge regression is frequently used to regularize ill-posed linear least-squares problems. While ridge regression provides shrinkage for the regression coefficients, many of the coefficients remain small but non-zero. Performing ridge regression with the matrix sketch returned by our algorithm and a particular regularization parameter forces coefficients to zero and has a provable (1 + \u03b5) bound on the statistical risk. As such, it is an interesting alternative to elastic net regularization.",
+    "published": "2018-03-15",
+    "categories": [
+      "math.ST",
+      "cs.DS",
+      "stat.CO",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1803.06010v2.pdf"
+  },
+  {
+    "arxiv_id": "1412.6966v2",
+    "title": "Adaptive Lasso and group-Lasso for functional Poisson regression",
+    "authors": [
+      "S. Ivanoff",
+      "F. Picard",
+      "V. Rivoirard"
+    ],
+    "abstract": "High dimensional Poisson regression has become a standard framework for the analysis of massive counts datasets. In this work we estimate the intensity function of the Poisson regression model by using a dictionary approach, which generalizes the classical basis approach, combined with a Lasso or a group-Lasso procedure. Selection depends on penalty weights that need to be calibrated. Standard methodologies developed in the Gaussian framework can not be directly applied to Poisson models due to heteroscedasticity. Here we provide data-driven weights for the Lasso and the group-Lasso derived from concentration inequalities adapted to the Poisson case. We show that the associated Lasso and group-Lasso procedures are theoretically optimal in the oracle approach. Simulations are used to assess the empirical performance of our procedure, and an original application to the analysis of Next Generation Sequencing data is provided.",
+    "published": "2014-12-22",
+    "categories": [
+      "stat.ME",
+      "math.ST"
+    ],
+    "pdf_path": "data/papers\\1412.6966v2.pdf"
+  },
+  {
+    "arxiv_id": "2505.23925v2",
+    "title": "Non-null Shrinkage Regression and Subset Selection via the Fractional Ridge Regression",
+    "authors": [
+      "Sihyung Park",
+      "Leonard A. Stefanski"
+    ],
+    "abstract": "$\\ell_p$-norm penalization, notably the Lasso, has become a standard technique, extending shrinkage regression to subset selection. Despite aiming for oracle properties and consistent estimation, existing Lasso-derived methods still rely on shrinkage toward a null model, necessitating careful tuning parameter selection and yielding monotone variable selection. This research introduces Fractional Ridge Regression, a novel generalization of the Lasso penalty that penalizes only a fraction of the coefficients. Critically, Fridge shrinks the model toward a non-null model of a prespecified target size, even under extreme regularization. By selectively penalizing coefficients associated with less important variables, Fridge aims to reduce bias, improve performance relative to the Lasso, and offer more intuitive model interpretation while retaining certain advantages of best subset selection.",
+    "published": "2025-05-29",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2505.23925v2.pdf"
+  },
+  {
+    "arxiv_id": "2504.19231v2",
+    "title": "Test Set Sizing for the Ridge Regression",
+    "authors": [
+      "Alexander Dubbs"
+    ],
+    "abstract": "We derive the ideal train/test split for the ridge regression to high accuracy in the limit that the number of training rows m becomes large. The split must depend on the ridge tuning parameter, alpha, but we find that the dependence is weak and can asymptotically be ignored; all parameters vanish except for m and the number of features, n, which is held constant. This is the first time that such a split is calculated mathematically for a machine learning model in the large data limit. The goal of the calculations is to maximize \"integrity,\" so that the measured error in the trained model is as close as possible to what it theoretically should be. This paper's result for the ridge regression split matches prior art for the plain vanilla linear regression split to the first two terms asymptotically.",
+    "published": "2025-04-27",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.PR"
+    ],
+    "pdf_path": "data/papers\\2504.19231v2.pdf"
+  },
+  {
+    "arxiv_id": "2207.11864v1",
+    "title": "Maximum Likelihood Ridge Regression",
+    "authors": [
+      "Robert L. Obenchain"
+    ],
+    "abstract": "My first paper exclusively about ridge regression was published in Technometrics and chosen for invited presentation at the 1975 Joint Statistical Meetings in Atlanta. Unfortunately, that paper contained a wide range of assorted details and results. Luckily, Gary McDonald's published discussion of that paper focused primarily on my use of Maximum Likelihood estimation under normal distribution-theory. In this review of some results from all four of my ridge publications between 1975 and 2022, I highlight the Maximum Likelihood findings that appear to be most important in practical application of shrinkage in regression.",
+    "published": "2022-07-25",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2207.11864v1.pdf"
+  },
+  {
+    "arxiv_id": "1808.07249v2",
+    "title": "Analysis of Network Lasso for Semi-Supervised Regression",
+    "authors": [
+      "A. Jung",
+      "N. Vesselinova"
+    ],
+    "abstract": "We apply network Lasso to semi-supervised regression problems involving network structured data. This approach lends quite naturally to highly scalable learning algorithms in the form of message passing over an empirical graph which represents the network structure of the data. By using a simple non-parametric regression model, which is motivated by a clustering hypothesis, we provide an analysis of the estimation error incurred by network Lasso. This analysis reveals conditions on the the network structure and the available training data which guarantee network Lasso to be accurate. Remarkably, the accuracy of network Lasso is related to the existence of sufficiently large network flows over the empirical graph. Thus, our analysis reveals a connection between network Lasso and maximum flow problems.",
+    "published": "2018-08-22",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1808.07249v2.pdf"
+  },
+  {
+    "arxiv_id": "2003.11283v1",
+    "title": "Boosting Ridge Regression for High Dimensional Data Classification",
+    "authors": [
+      "Jakramate Bootkrajang"
+    ],
+    "abstract": "Ridge regression is a well established regression estimator which can conveniently be adapted for classification problems. One compelling reason is probably the fact that ridge regression emits a closed-form solution thereby facilitating the training phase. However in the case of high-dimensional problems, the closed-form solution which involves inverting the regularised covariance matrix is rather expensive to compute. The high computational demand of such operation also renders difficulty in constructing ensemble of ridge regressions. In this paper, we consider learning an ensemble of ridge regressors where each regressor is trained in its own randomly projected subspace. Subspace regressors are later combined via adaptive boosting methodology. Experiments based on five high-dimensional classification problems demonstrated the effectiveness of the proposed method in terms of learning time and in some cases improved predictive performance can be observed.",
+    "published": "2020-03-25",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2003.11283v1.pdf"
+  },
+  {
+    "arxiv_id": "2212.07052v2",
+    "title": "On LASSO for High Dimensional Predictive Regression",
+    "authors": [
+      "Ziwei Mei",
+      "Zhentao Shi"
+    ],
+    "abstract": "This paper examines LASSO, a widely-used $L_{1}$-penalized regression method, in high dimensional linear predictive regressions, particularly when the number of potential predictors exceeds the sample size and numerous unit root regressors are present. The consistency of LASSO is contingent upon two key components: the deviation bound of the cross product of the regressors and the error term, and the restricted eigenvalue of the Gram matrix. We present new probabilistic bounds for these components, suggesting that LASSO's rates of convergence are different from those typically observed in cross-sectional cases. When applied to a mixture of stationary, nonstationary, and cointegrated predictors, LASSO maintains its asymptotic guarantee if predictors are scale-standardized. Leveraging machine learning and macroeconomic domain expertise, LASSO demonstrates strong performance in forecasting the unemployment rate, as evidenced by its application to the FRED-MD database.",
+    "published": "2022-12-14",
+    "categories": [
+      "econ.EM",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2212.07052v2.pdf"
+  },
+  {
+    "arxiv_id": "2310.16209v1",
+    "title": "ELM Ridge Regression Boosting",
+    "authors": [
+      "M. Andrecut"
+    ],
+    "abstract": "We discuss a boosting approach for the Ridge Regression (RR) method, with applications to the Extreme Learning Machine (ELM), and we show that the proposed method significantly improves the classification performance and robustness of ELMs.",
+    "published": "2023-10-24",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2310.16209v1.pdf"
+  },
+  {
+    "arxiv_id": "2005.01559v1",
+    "title": "Reduced Rank Multivariate Kernel Ridge Regression",
+    "authors": [
+      "Wenjia Wang",
+      "Yi-Hui Zhou"
+    ],
+    "abstract": "In the multivariate regression, also referred to as multi-task learning in machine learning, the goal is to recover a vector-valued function based on noisy observations. The vector-valued function is often assumed to be of low rank. Although the multivariate linear regression is extensively studied in the literature, a theoretical study on the multivariate nonlinear regression is lacking. In this paper, we study reduced rank multivariate kernel ridge regression, proposed by \\cite{mukherjee2011reduced}. We prove the consistency of the function predictor and provide the convergence rate. An algorithm based on nuclear norm relaxation is proposed. A few numerical examples are presented to show the smaller mean squared prediction error comparing with the elementwise univariate kernel ridge regression.",
+    "published": "2020-05-04",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2005.01559v1.pdf"
+  },
+  {
+    "arxiv_id": "1910.02373v3",
+    "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+    "authors": [
+      "Sifan Liu",
+      "Edgar Dobriban"
+    ],
+    "abstract": "We study the following three fundamental problems about ridge regression: (1) what is the structure of the estimator? (2) how to correctly use cross-validation to choose the regularization parameter? and (3) how to accelerate computation without losing too much accuracy? We consider the three problems in a unified large-data linear model. We give a precise representation of ridge regression as a covariance matrix-dependent linear combination of the true parameter and the noise. We study the bias of $K$-fold cross-validation for choosing the regularization parameter, and propose a simple bias-correction. We analyze the accuracy of primal and dual sketching for ridge regression, showing they are surprisingly accurate. Our results are illustrated by simulations and by analyzing empirical data.",
+    "published": "2019-10-06",
+    "categories": [
+      "math.ST",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1910.02373v3.pdf"
+  },
+  {
+    "arxiv_id": "2206.08757v1",
+    "title": "Beyond Ridge Regression for Distribution-Free Data",
+    "authors": [
+      "Koby Bibas",
+      "Meir Feder"
+    ],
+    "abstract": "In supervised batch learning, the predictive normalized maximum likelihood (pNML) has been proposed as the min-max regret solution for the distribution-free setting, where no distributional assumptions are made on the data. However, the pNML is not defined for a large capacity hypothesis class as over-parameterized linear regression. For a large class, a common approach is to use regularization or a model prior. In the context of online prediction where the min-max solution is the Normalized Maximum Likelihood (NML), it has been suggested to use NML with ``luckiness'': A prior-like function is applied to the hypothesis class, which reduces its effective size. Motivated by the luckiness concept, for linear regression we incorporate a luckiness function that penalizes the hypothesis proportionally to its l2 norm. This leads to the ridge regression solution. The associated pNML with luckiness (LpNML) prediction deviates from the ridge regression empirical risk minimizer (Ridge ERM): When the test data reside in the subspace corresponding to the small eigenvalues of the empirical correlation matrix of the training data, the prediction is shifted toward 0. Our LpNML reduces the Ridge ERM error by up to 20% for the PMLB sets, and is up to 4.9% more robust in the presence of distribution shift compared to recent leading methods for UCI sets.",
+    "published": "2022-06-17",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2206.08757v1.pdf"
+  },
+  {
+    "arxiv_id": "1404.2083v1",
+    "title": "Efficiency of conformalized ridge regression",
+    "authors": [
+      "Evgeny Burnaev",
+      "Vladimir Vovk"
+    ],
+    "abstract": "Conformal prediction is a method of producing prediction sets that can be applied on top of a wide range of prediction algorithms. The method has a guaranteed coverage probability under the standard IID assumption regardless of whether the assumptions (often considerably more restrictive) of the underlying algorithm are satisfied. However, for the method to be really useful it is desirable that in the case where the assumptions of the underlying algorithm are satisfied, the conformal predictor loses little in efficiency as compared with the underlying algorithm (whereas being a conformal predictor, it has the stronger guarantee of validity). In this paper we explore the degree to which this additional requirement of efficiency is satisfied in the case of Bayesian ridge regression; we find that asymptotically conformal prediction sets differ little from ridge regression prediction intervals when the standard Bayesian assumptions are satisfied.",
+    "published": "2014-04-08",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1404.2083v1.pdf"
+  },
+  {
+    "arxiv_id": "1411.7405v2",
+    "title": "A note relating ridge regression and OLS p-values to preconditioned sparse penalized regression",
+    "authors": [
+      "Karl Rohe"
+    ],
+    "abstract": "When the design matrix has orthonormal columns, \"soft thresholding\" the ordinary least squares (OLS) solution produces the Lasso solution [Tibshirani, 1996]. If one uses the Puffer preconditioned Lasso [Jia and Rohe, 2012], then this result generalizes from orthonormal designs to full rank designs (Theorem 1). Theorem 2 refines the Puffer preconditioner to make the Lasso select the same model as removing the elements of the OLS solution with the largest p-values. Using a generalized Puffer preconditioner, Theorem 3 relates ridge regression to the preconditioned Lasso; this result is for the high dimensional setting, p > n. Where the standard Lasso is akin to forward selection [Efron et al., 2004], Theorems 1, 2, and 3 suggest that the preconditioned Lasso is more akin to backward elimination. These results hold for sparse penalties beyond l1; for a broad class of sparse and non-convex techniques (e.g. SCAD and MC+), the results hold for all local minima.",
+    "published": "2014-11-26",
+    "categories": [
+      "stat.ML",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1411.7405v2.pdf"
+  },
+  {
+    "arxiv_id": "1506.05173v2",
+    "title": "Feature Selection for Ridge Regression with Provable Guarantees",
+    "authors": [
+      "Saurabh Paul",
+      "Petros Drineas"
+    ],
+    "abstract": "We introduce single-set spectral sparsification as a deterministic sampling based feature selection technique for regularized least squares classification, which is the classification analogue to ridge regression. The method is unsupervised and gives worst-case guarantees of the generalization power of the classification function after feature selection with respect to the classification function obtained using all features. We also introduce leverage-score sampling as an unsupervised randomized feature selection method for ridge regression. We provide risk bounds for both single-set spectral sparsification and leverage-score sampling on ridge regression in the fixed design setting and show that the risk in the sampled space is comparable to the risk in the full-feature space. We perform experiments on synthetic and real-world datasets, namely a subset of TechTC-300 datasets, to support our theory. Experimental results indicate that the proposed methods perform better than the existing feature selection methods.",
+    "published": "2015-06-17",
+    "categories": [
+      "stat.ML",
+      "cs.IT",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1506.05173v2.pdf"
+  },
+  {
+    "arxiv_id": "1406.3469v4",
+    "title": "LOCO: Distributing Ridge Regression with Random Projections",
+    "authors": [
+      "Christina Heinze",
+      "Brian McWilliams",
+      "Nicolai Meinshausen",
+      "Gabriel Krummenacher"
+    ],
+    "abstract": "We propose LOCO, an algorithm for large-scale ridge regression which distributes the features across workers on a cluster. Important dependencies between variables are preserved using structured random projections which are cheap to compute and must only be communicated once. We show that LOCO obtains a solution which is close to the exact ridge regression solution in the fixed design setting. We verify this experimentally in a simulation study as well as an application to climate prediction. Furthermore, we show that LOCO achieves significant speedups compared with a state-of-the-art distributed algorithm on a large-scale regression problem.",
+    "published": "2014-06-13",
+    "categories": [
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1406.3469v4.pdf"
+  },
+  {
+    "arxiv_id": "2311.14182v1",
+    "title": "Gradient-based bilevel optimization for multi-penalty Ridge regression through matrix differential calculus",
+    "authors": [
+      "Gabriele Maroni",
+      "Loris Cannelli",
+      "Dario Piga"
+    ],
+    "abstract": "Common regularization algorithms for linear regression, such as LASSO and Ridge regression, rely on a regularization hyperparameter that balances the tradeoff between minimizing the fitting error and the norm of the learned model coefficients. As this hyperparameter is scalar, it can be easily selected via random or grid search optimizing a cross-validation criterion. However, using a scalar hyperparameter limits the algorithm's flexibility and potential for better generalization. In this paper, we address the problem of linear regression with l2-regularization, where a different regularization hyperparameter is associated with each input variable. We optimize these hyperparameters using a gradient-based approach, wherein the gradient of a cross-validation criterion with respect to the regularization hyperparameters is computed analytically through matrix differential calculus. Additionally, we introduce two strategies tailored for sparse model learning problems aiming at reducing the risk of overfitting to the validation data. Numerical examples demonstrate that our multi-hyperparameter regularization approach outperforms LASSO, Ridge, and Elastic Net regression. Moreover, the analytical computation of the gradient proves to be more efficient in terms of computational time compared to automatic differentiation, especially when handling a large number of input variables. Application to the identification of over-parameterized Linear Parameter-Varying models is also presented.",
+    "published": "2023-11-23",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2311.14182v1.pdf"
+  },
+  {
+    "arxiv_id": "1907.02242v2",
+    "title": "Fair Kernel Regression via Fair Feature Embedding in Kernel Space",
+    "authors": [
+      "Austin Okray",
+      "Hui Hu",
+      "Chao Lan"
+    ],
+    "abstract": "In recent years, there have been significant efforts on mitigating unethical demographic biases in machine learning methods. However, very little is done for kernel methods. In this paper, we propose a new fair kernel regression method via fair feature embedding (FKR-F$^2$E) in kernel space. Motivated by prior works on feature selection in kernel space and feature processing for fair machine learning, we propose to learn fair feature embedding functions that minimize demographic discrepancy of feature distributions in kernel space. Compared to the state-of-the-art fair kernel regression method and several baseline methods, we show FKR-F$^2$E achieves significantly lower prediction disparity across three real-world data sets.",
+    "published": "2019-07-04",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1907.02242v2.pdf"
+  },
+  {
+    "arxiv_id": "1907.08592v2",
+    "title": "Kernel Mode Decomposition and programmable/interpretable regression networks",
+    "authors": [
+      "Houman Owhadi",
+      "Clint Scovel",
+      "Gene Ryan Yoo"
+    ],
+    "abstract": "Mode decomposition is a prototypical pattern recognition problem that can be addressed from the (a priori distinct) perspectives of numerical approximation, statistical inference and deep learning. Could its analysis through these combined perspectives be used as a Rosetta stone for deciphering mechanisms at play in deep learning? Motivated by this question we introduce programmable and interpretable regression networks for pattern recognition and address mode decomposition as a prototypical problem. The programming of these networks is achieved by assembling elementary modules decomposing and recomposing kernels and data. These elementary steps are repeated across levels of abstraction and interpreted from the equivalent perspectives of optimal recovery, game theory and Gaussian process regression (GPR). The prototypical mode/kernel decomposition module produces an optimal approximation $(w_1,w_2,\\cdots,w_m)$ of an element $(v_1,v_2,\\ldots,v_m)$ of a product of Hilbert subspaces of a common Hilbert space from the observation of the sum $v:=v_1+\\cdots+v_m$. The prototypical mode/kernel recomposition module performs partial sums of the recovered modes $w_i$ based on the alignment between each recovered mode $w_i$ and the data $v$. We illustrate the proposed framework by programming regression networks approximating the modes $v_i= a_i(t)y_i\\big(\u03b8_i(t)\\big)$ of a (possibly noisy) signal $\\sum_i v_i$ when the amplitudes $a_i$, instantaneous phases $\u03b8_i$ and periodic waveforms $y_i$ may all be unknown and show near machine precision recovery under regularity and separation assumptions on the instantaneous amplitudes $a_i$ and frequencies $\\dot\u03b8_i$. The structure of some of these networks share intriguing similarities with convolutional neural networks while being interpretable, programmable and amenable to theoretical analysis.",
+    "published": "2019-07-19",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.NA"
+    ],
+    "pdf_path": "data/papers\\1907.08592v2.pdf"
+  },
+  {
+    "arxiv_id": "2002.02561v7",
+    "title": "Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks",
+    "authors": [
+      "Blake Bordelon",
+      "Abdulkadir Canatar",
+      "Cengiz Pehlevan"
+    ],
+    "abstract": "We derive analytical expressions for the generalization performance of kernel regression as a function of the number of training samples using theoretical methods from Gaussian processes and statistical physics. Our expressions apply to wide neural networks due to an equivalence between training them and kernel regression with the Neural Tangent Kernel (NTK). By computing the decomposition of the total generalization error due to different spectral components of the kernel, we identify a new spectral principle: as the size of the training set grows, kernel machines and neural networks fit successively higher spectral modes of the target function. When data are sampled from a uniform distribution on a high-dimensional hypersphere, dot product kernels, including NTK, exhibit learning stages where different frequency modes of the target function are learned. We verify our theory with simulations on synthetic data and MNIST dataset.",
+    "published": "2020-02-07",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2002.02561v7.pdf"
+  },
+  {
+    "arxiv_id": "1411.0306v3",
+    "title": "Fast Randomized Kernel Methods With Statistical Guarantees",
+    "authors": [
+      "Ahmed El Alaoui",
+      "Michael W. Mahoney"
+    ],
+    "abstract": "One approach to improving the running time of kernel-based machine learning methods is to build a small sketch of the input and use it in lieu of the full kernel matrix in the machine learning task of interest. Here, we describe a version of this approach that comes with running time guarantees as well as improved guarantees on its statistical performance. By extending the notion of \\emph{statistical leverage scores} to the setting of kernel ridge regression, our main statistical result is to identify an importance sampling distribution that reduces the size of the sketch (i.e., the required number of columns to be sampled) to the \\emph{effective dimensionality} of the problem. This quantity is often much smaller than previous bounds that depend on the \\emph{maximal degrees of freedom}. Our main algorithmic result is to present a fast algorithm to compute approximations to these scores. This algorithm runs in time that is linear in the number of samples---more precisely, the running time is $O(np^2)$, where the parameter $p$ depends only on the trace of the kernel matrix and the regularization parameter---and it can be applied to the matrix of feature vectors, without having to form the full kernel matrix. This is obtained via a variant of length-squared sampling that we adapt to the kernel setting in a way that is of independent interest. Lastly, we provide empirical results illustrating our theory, and we discuss how this new notion of the statistical leverage of a data point captures in a fine way the difficulty of the original statistical learning problem.",
+    "published": "2014-11-02",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.CO"
+    ],
+    "pdf_path": "data/papers\\1411.0306v3.pdf"
+  },
+  {
+    "arxiv_id": "1905.10843v8",
+    "title": "Asymptotic learning curves of kernel methods: empirical data v.s. Teacher-Student paradigm",
+    "authors": [
+      "Stefano Spigler",
+      "Mario Geiger",
+      "Matthieu Wyart"
+    ],
+    "abstract": "How many training data are needed to learn a supervised task? It is often observed that the generalization error decreases as $n^{-\u03b2}$ where $n$ is the number of training examples and $\u03b2$ an exponent that depends on both data and algorithm. In this work we measure $\u03b2$ when applying kernel methods to real datasets. For MNIST we find $\u03b2\\approx 0.4$ and for CIFAR10 $\u03b2\\approx 0.1$, for both regression and classification tasks, and for Gaussian or Laplace kernels. To rationalize the existence of non-trivial exponents that can be independent of the specific kernel used, we study the Teacher-Student framework for kernels. In this scheme, a Teacher generates data according to a Gaussian random field, and a Student learns them via kernel regression. With a simplifying assumption -- namely that the data are sampled from a regular lattice -- we derive analytically $\u03b2$ for translation invariant kernels, using previous results from the kriging literature. Provided that the Student is not too sensitive to high frequencies, $\u03b2$ depends only on the smoothness and dimension of the training data. We confirm numerically that these predictions hold when the training points are sampled at random on a hypersphere. Overall, the test error is found to be controlled by the magnitude of the projection of the true function on the kernel eigenvectors whose rank is larger than $n$. Using this idea we predict relate the exponent $\u03b2$ to an exponent $a$ describing how the coefficients of the true function in the eigenbasis of the kernel decay with rank. We extract $a$ from real data by performing kernel PCA, leading to $\u03b2\\approx0.36$ for MNIST and $\u03b2\\approx0.07$ for CIFAR10, in good agreement with observations. We argue that these rather large exponents are possible due to the small effective dimension of the data.",
+    "published": "2019-05-26",
+    "categories": [
+      "stat.ML",
+      "cond-mat.dis-nn",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1905.10843v8.pdf"
+  },
+  {
+    "arxiv_id": "2110.03922v6",
+    "title": "The Eigenlearning Framework: A Conservation Law Perspective on Kernel Regression and Wide Neural Networks",
+    "authors": [
+      "James B. Simon",
+      "Madeline Dickens",
+      "Dhruva Karkada",
+      "Michael R. DeWeese"
+    ],
+    "abstract": "We derive simple closed-form estimates for the test risk and other generalization metrics of kernel ridge regression (KRR). Relative to prior work, our derivations are greatly simplified and our final expressions are more readily interpreted. These improvements are enabled by our identification of a sharp conservation law which limits the ability of KRR to learn any orthonormal basis of functions. Test risk and other objects of interest are expressed transparently in terms of our conserved quantity evaluated in the kernel eigenbasis. We use our improved framework to: i) provide a theoretical explanation for the \"deep bootstrap\" of Nakkiran et al (2020), ii) generalize a previous result regarding the hardness of the classic parity problem, iii) fashion a theoretical tool for the study of adversarial robustness, and iv) draw a tight analogy between KRR and a well-studied system in statistical physics.",
+    "published": "2021-10-08",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2110.03922v6.pdf"
+  },
+  {
+    "arxiv_id": "1402.3849v1",
+    "title": "Scalable Kernel Clustering: Approximate Kernel k-means",
+    "authors": [
+      "Radha Chitta",
+      "Rong Jin",
+      "Timothy C. Havens",
+      "Anil K. Jain"
+    ],
+    "abstract": "Kernel-based clustering algorithms have the ability to capture the non-linear structure in real world data. Among various kernel-based clustering algorithms, kernel k-means has gained popularity due to its simple iterative nature and ease of implementation. However, its run-time complexity and memory footprint increase quadratically in terms of the size of the data set, and hence, large data sets cannot be clustered efficiently. In this paper, we propose an approximation scheme based on randomization, called the Approximate Kernel k-means. We approximate the cluster centers using the kernel similarity between a few sampled points and all the points in the data set. We show that the proposed method achieves better clustering performance than the traditional low rank kernel approximation based clustering schemes. We also demonstrate that its running time and memory requirements are significantly lower than those of kernel k-means, with only a small reduction in the clustering quality on several public domain large data sets. We then employ ensemble clustering techniques to further enhance the performance of our algorithm.",
+    "published": "2014-02-16",
+    "categories": [
+      "cs.CV",
+      "cs.DS",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1402.3849v1.pdf"
+  },
+  {
+    "arxiv_id": "2402.06763v3",
+    "title": "Scalable Kernel Logistic Regression with Nystr\u00f6m Approximation: Theoretical Analysis and Application to Discrete Choice Modelling",
+    "authors": [
+      "Jos\u00e9 \u00c1ngel Mart\u00edn-Baos",
+      "Ricardo Garc\u00eda-R\u00f3denas",
+      "Luis Rodriguez-Benitez",
+      "Michel Bierlaire"
+    ],
+    "abstract": "The application of kernel-based Machine Learning (ML) techniques to discrete choice modelling using large datasets often faces challenges due to memory requirements and the considerable number of parameters involved in these models. This complexity hampers the efficient training of large-scale models. This paper addresses these problems of scalability by introducing the Nystr\u00f6m approximation for Kernel Logistic Regression (KLR) on large datasets. The study begins by presenting a theoretical analysis in which: i) the set of KLR solutions is characterised, ii) an upper bound to the solution of KLR with Nystr\u00f6m approximation is provided, and finally iii) a specialisation of the optimisation algorithms to Nystr\u00f6m KLR is described. After this, the Nystr\u00f6m KLR is computationally validated. Four landmark selection methods are tested, including basic uniform sampling, a k-means sampling strategy, and two non-uniform methods grounded in leverage scores. The performance of these strategies is evaluated using large-scale transport mode choice datasets and is compared with traditional methods such as Multinomial Logit (MNL) and contemporary ML techniques. The study also assesses the efficiency of various optimisation techniques for the proposed Nystr\u00f6m KLR model. The performance of gradient descent, Momentum, Adam, and L-BFGS-B optimisation methods is examined on these datasets. Among these strategies, the k-means Nystr\u00f6m KLR approach emerges as a successful solution for applying KLR to large datasets, particularly when combined with the L-BFGS-B and Adam optimisation methods. The results highlight the ability of this strategy to handle datasets exceeding 200,000 observations while maintaining robust performance.",
+    "published": "2024-02-09",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2402.06763v3.pdf"
+  },
+  {
+    "arxiv_id": "1610.00660v1",
+    "title": "Kernel Selection using Multiple Kernel Learning and Domain Adaptation in Reproducing Kernel Hilbert Space, for Face Recognition under Surveillance Scenario",
+    "authors": [
+      "Samik Banerjee",
+      "Sukhendu Das"
+    ],
+    "abstract": "Face Recognition (FR) has been the interest to several researchers over the past few decades due to its passive nature of biometric authentication. Despite high accuracy achieved by face recognition algorithms under controlled conditions, achieving the same performance for face images obtained in surveillance scenarios, is a major hurdle. Some attempts have been made to super-resolve the low-resolution face images and improve the contrast, without considerable degree of success. The proposed technique in this paper tries to cope with the very low resolution and low contrast face images obtained from surveillance cameras, for FR under surveillance conditions. For Support Vector Machine classification, the selection of appropriate kernel has been a widely discussed issue in the research community. In this paper, we propose a novel kernel selection technique termed as MFKL (Multi-Feature Kernel Learning) to obtain the best feature-kernel pairing. Our proposed technique employs a effective kernel selection by Multiple Kernel Learning (MKL) method, to choose the optimal kernel to be used along with unsupervised domain adaptation method in the Reproducing Kernel Hilbert Space (RKHS), for a solution to the problem. Rigorous experimentation has been performed on three real-world surveillance face datasets : FR\\_SURV, SCface and ChokePoint. Results have been shown using Rank-1 Recognition Accuracy, ROC and CMC measures. Our proposed method outperforms all other recent state-of-the-art techniques by a considerable margin.",
+    "published": "2016-10-03",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1610.00660v1.pdf"
+  },
+  {
+    "arxiv_id": "2106.06097v4",
+    "title": "Neural Optimization Kernel: Towards Robust Deep Learning",
+    "authors": [
+      "Yueming Lyu",
+      "Ivor Tsang"
+    ],
+    "abstract": "Deep neural networks (NN) have achieved great success in many applications. However, why do deep neural networks obtain good generalization at an over-parameterization regime is still unclear. To better understand deep NN, we establish the connection between deep NN and a novel kernel family, i.e., Neural Optimization Kernel (NOK). The architecture of structured approximation of NOK performs monotonic descent updates of implicit regularization problems. We can implicitly choose the regularization problems by employing different activation functions, e.g., ReLU, max pooling, and soft-thresholding. We further establish a new generalization bound of our deep structured approximated NOK architecture. Our unsupervised structured approximated NOK block can serve as a simple plug-in of popular backbones for a good generalization against input noise.",
+    "published": "2021-06-11",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2106.06097v4.pdf"
+  },
+  {
+    "arxiv_id": "1603.07828v2",
+    "title": "Privacy-Preserved Big Data Analysis Based on Asymmetric Imputation Kernels and Multiside Similarities",
+    "authors": [
+      "Bo-Wei Chen"
+    ],
+    "abstract": "This study presents an efficient approach for incomplete data classification, where the entries of samples are missing or masked due to privacy preservation. To deal with these incomplete data, a new kernel function with asymmetric intrinsic mappings is proposed in this study. Such a new kernel uses three-side similarities for kernel matrix formation. The similarity between a testing instance and a training sample relies not only on their distance but also on the relation between the testing sample and the centroid of the class, where the training sample belongs. This reduces biased estimation compared with typical methods when only one training sample is used for kernel matrix formation. Furthermore, centroid generation does not involve any clustering algorithms. The proposed kernel is capable of performing data imputation by using class-dependent averages. This enhances Fisher Discriminant Ratios and data discriminability. Experiments on two open databases were carried out for evaluating the proposed method. The result indicated that the accuracy of the proposed method was higher than that of the baseline. These findings thereby demonstrated the effectiveness of the proposed idea.",
+    "published": "2016-03-25",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_path": "data/papers\\1603.07828v2.pdf"
+  },
+  {
+    "arxiv_id": "0804.1441v3",
+    "title": "On Kernelization of Supervised Mahalanobis Distance Learners",
+    "authors": [
+      "Ratthachat Chatpatanasiri",
+      "Teesid Korsrilabutr",
+      "Pasakorn Tangchanachaianan",
+      "Boonserm Kijsirikul"
+    ],
+    "abstract": "This paper focuses on the problem of kernelizing an existing supervised Mahalanobis distance learner. The following features are included in the paper. Firstly, three popular learners, namely, \"neighborhood component analysis\", \"large margin nearest neighbors\" and \"discriminant neighborhood embedding\", which do not have kernel versions are kernelized in order to improve their classification performances. Secondly, an alternative kernelization framework called \"KPCA trick\" is presented. Implementing a learner in the new framework gains several advantages over the standard framework, e.g. no mathematical formulas and no reprogramming are required for a kernel implementation, the framework avoids troublesome problems such as singularity, etc. Thirdly, while the truths of representer theorems are just assumptions in previous papers related to ours, here, representer theorems are formally proven. The proofs validate both the kernel trick and the KPCA trick in the context of Mahalanobis distance learning. Fourthly, unlike previous works which always apply brute force methods to select a kernel, we investigate two approaches which can be efficiently adopted to construct an appropriate kernel for a given dataset. Finally, numerical results on various real-world datasets are presented.",
+    "published": "2008-04-09",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_path": "data/papers\\0804.1441v3.pdf"
+  },
+  {
+    "arxiv_id": "1712.09001v1",
+    "title": "Kernel Regression with Sparse Metric Learning",
+    "authors": [
+      "Rongqing Huang",
+      "Shiliang Sun"
+    ],
+    "abstract": "Kernel regression is a popular non-parametric fitting technique. It aims at learning a function which estimates the targets for test inputs as precise as possible. Generally, the function value for a test input is estimated by a weighted average of the surrounding training examples. The weights are typically computed by a distance-based kernel function and they strongly depend on the distances between examples. In this paper, we first review the latest developments of sparse metric learning and kernel regression. Then a novel kernel regression method involving sparse metric learning, which is called kernel regression with sparse metric learning (KR$\\_$SML), is proposed. The sparse kernel regression model is established by enforcing a mixed $(2,1)$-norm regularization over the metric matrix. It learns a Mahalanobis distance metric by a gradient descent procedure, which can simultaneously conduct dimensionality reduction and lead to good prediction results. Our work is the first to combine kernel regression with sparse metric learning. To verify the effectiveness of the proposed method, it is evaluated on 19 data sets for regression. Furthermore, the new method is also applied to solving practical problems of forecasting short-term traffic flows. In the end, we compare the proposed method with other three related kernel regression methods on all test data sets under two criterions. Experimental results show that the proposed method is much more competitive.",
+    "published": "2017-12-25",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1712.09001v1.pdf"
+  },
+  {
+    "arxiv_id": "2311.10790v1",
+    "title": "Degeneration of kernel regression with Matern kernels into low-order polynomial regression in high dimension",
+    "authors": [
+      "Sergei Manzhos",
+      "Manabu Ihara"
+    ],
+    "abstract": "Kernel methods such as kernel ridge regression and Gaussian process regressions with Matern type kernels have been increasingly used, in particular, to fit potential energy surfaces (PES) and density functionals, and for materials informatics. When the dimensionality of the feature space is high, these methods are used with necessarily sparse data. In this regime, the optimal length parameter of a Matern-type kernel tends to become so large that the method effectively degenerates into a low-order polynomial regression and therefore loses any advantage over such regression. This is demonstrated theoretically as well as numerically on the examples of six- and fifteen-dimensional molecular PES using squared exponential and simple exponential kernels. The results shed additional light on the success of polynomial approximations such as PIP for medium size molecules and on the importance of orders-of-coupling based models for preserving the advantages of kernel methods with Matern type kernels or on the use of physically-motivated (reproducing) kernels.",
+    "published": "2023-11-17",
+    "categories": [
+      "physics.comp-ph",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2311.10790v1.pdf"
+  },
+  {
+    "arxiv_id": "2006.16744v1",
+    "title": "Optimal Rates of Distributed Regression with Imperfect Kernels",
+    "authors": [
+      "Hongwei Sun",
+      "Qiang Wu"
+    ],
+    "abstract": "Distributed machine learning systems have been receiving increasing attentions for their efficiency to process large scale data. Many distributed frameworks have been proposed for different machine learning tasks. In this paper, we study the distributed kernel regression via the divide and conquer approach. This approach has been proved asymptotically minimax optimal if the kernel is perfectly selected so that the true regression function lies in the associated reproducing kernel Hilbert space. However, this is usually, if not always, impractical because kernels that can only be selected via prior knowledge or a tuning process are hardly perfect. Instead it is more common that the kernel is good enough but imperfect in the sense that the true regression can be well approximated by but does not lie exactly in the kernel space. We show distributed kernel regression can still achieves capacity independent optimal rate in this case. To this end, we first establish a general framework that allows to analyze distributed regression with response weighted base algorithms by bounding the error of such algorithms on a single data set, provided that the error bounds has factored the impact of the unexplained variance of the response variable. Then we perform a leave one out analysis of the kernel ridge regression and bias corrected kernel ridge regression, which in combination with the aforementioned framework allows us to derive sharp error bounds and capacity independent optimal rates for the associated distributed kernel regression algorithms. As a byproduct of the thorough analysis, we also prove the kernel ridge regression can achieve rates faster than $N^{-1}$ (where $N$ is the sample size) in the noise free setting which, to our best knowledge, are first observed and novel in regression learning.",
+    "published": "2020-06-30",
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "math.ST",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2006.16744v1.pdf"
+  },
+  {
+    "arxiv_id": "1712.08597v2",
+    "title": "Learning the Kernel for Classification and Regression",
+    "authors": [
+      "Chen Li",
+      "Luca Venturi",
+      "Ruitu Xu"
+    ],
+    "abstract": "We investigate a series of learning kernel problems with polynomial combinations of base kernels, which will help us solve regression and classification problems. We also perform some numerical experiments of polynomial kernels with regression and classification tasks on different datasets.",
+    "published": "2017-12-22",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1712.08597v2.pdf"
+  },
+  {
+    "arxiv_id": "1306.3905v1",
+    "title": "Stability of Multi-Task Kernel Regression Algorithms",
+    "authors": [
+      "Julien Audiffren",
+      "Hachem Kadri"
+    ],
+    "abstract": "We study the stability properties of nonlinear multi-task regression in reproducing Hilbert spaces with operator-valued kernels. Such kernels, a.k.a. multi-task kernels, are appropriate for learning prob- lems with nonscalar outputs like multi-task learning and structured out- put prediction. We show that multi-task kernel regression algorithms are uniformly stable in the general case of infinite-dimensional output spaces. We then derive under mild assumption on the kernel generaliza- tion bounds of such algorithms, and we show their consistency even with non Hilbert-Schmidt operator-valued kernels . We demonstrate how to apply the results to various multi-task kernel regression methods such as vector-valued SVR and functional ridge regression.",
+    "published": "2013-06-17",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1306.3905v1.pdf"
+  },
+  {
+    "arxiv_id": "2410.15304v1",
+    "title": "Multiple Kernel Clustering via Local Regression Integration",
+    "authors": [
+      "Liang Du",
+      "Xin Ren",
+      "Haiying Zhang",
+      "Peng Zhou"
+    ],
+    "abstract": "Multiple kernel methods less consider the intrinsic manifold structure of multiple kernel data and estimate the consensus kernel matrix with quadratic number of variables, which makes it vulnerable to the noise and outliers within multiple candidate kernels. This paper first presents the clustering method via kernelized local regression (CKLR). It captures the local structure of kernel data and employs kernel regression on the local region to predict the clustering results. Moreover, this paper further extends it to perform clustering via the multiple kernel local regression (CMKLR). We construct the kernel level local regression sparse coefficient matrix for each candidate kernel, which well characterizes the kernel level manifold structure. We then aggregate all the kernel level local regression coefficients via linear weights and generate the consensus sparse local regression coefficient, which largely reduces the number of candidate variables and becomes more robust against noises and outliers within multiple kernel data. Thus, the proposed method CMKLR avoids the above two limitations. It only contains one additional hyperparameter for tuning. Extensive experimental results show that the clustering performance of the proposed method on benchmark datasets is better than that of 10 state-of-the-art multiple kernel clustering methods.",
+    "published": "2024-10-20",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2410.15304v1.pdf"
+  },
+  {
+    "arxiv_id": "2209.01691v2",
+    "title": "On Kernel Regression with Data-Dependent Kernels",
+    "authors": [
+      "James B. Simon"
+    ],
+    "abstract": "The primary hyperparameter in kernel regression (KR) is the choice of kernel. In most theoretical studies of KR, one assumes the kernel is fixed before seeing the training data. Under this assumption, it is known that the optimal kernel is equal to the prior covariance of the target function. In this note, we consider KR in which the kernel may be updated after seeing the training data. We point out that an analogous choice of kernel using the posterior of the target function is optimal in this setting. Connections to the view of deep neural networks as data-dependent kernel learners are discussed.",
+    "published": "2022-09-04",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2209.01691v2.pdf"
+  },
+  {
+    "arxiv_id": "1508.01217v4",
+    "title": "Bayesian Approximate Kernel Regression with Variable Selection",
+    "authors": [
+      "Lorin Crawford",
+      "Kris C. Wood",
+      "Xiang Zhou",
+      "Sayan Mukherjee"
+    ],
+    "abstract": "Nonlinear kernel regression models are often used in statistics and machine learning because they are more accurate than linear models. Variable selection for kernel regression models is a challenge partly because, unlike the linear regression setting, there is no clear concept of an effect size for regression coefficients. In this paper, we propose a novel framework that provides an effect size analog of each explanatory variable for Bayesian kernel regression models when the kernel is shift-invariant --- for example, the Gaussian kernel. We use function analytic properties of shift-invariant reproducing kernel Hilbert spaces (RKHS) to define a linear vector space that: (i) captures nonlinear structure, and (ii) can be projected onto the original explanatory variables. The projection onto the original explanatory variables serves as an analog of effect sizes. The specific function analytic property we use is that shift-invariant kernel functions can be approximated via random Fourier bases. Based on the random Fourier expansion we propose a computationally efficient class of Bayesian approximate kernel regression (BAKR) models for both nonlinear regression and binary classification for which one can compute an analog of effect sizes. We illustrate the utility of BAKR by examining two important problems in statistical genetics: genomic selection (i.e. phenotypic prediction) and association mapping (i.e. inference of significant variants or loci). State-of-the-art methods for genomic selection and association mapping are based on kernel regression and linear models, respectively. BAKR is the first method that is competitive in both settings.",
+    "published": "2015-08-05",
+    "categories": [
+      "stat.ME",
+      "q-bio.QM",
+      "stat.AP",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1508.01217v4.pdf"
+  },
+  {
+    "arxiv_id": "2207.08667v1",
+    "title": "pGMM Kernel Regression and Comparisons with Boosted Trees",
+    "authors": [
+      "Ping Li",
+      "Weijie Zhao"
+    ],
+    "abstract": "In this work, we demonstrate the advantage of the pGMM (``powered generalized min-max'') kernel in the context of (ridge) regression. In recent prior studies, the pGMM kernel has been extensively evaluated for classification tasks, for logistic regression, support vector machines, as well as deep neural networks. In this paper, we provide an experimental study on ridge regression, to compare the pGMM kernel regression with the ordinary ridge linear regression as well as the RBF kernel ridge regression. Perhaps surprisingly, even without a tuning parameter (i.e., $p=1$ for the power parameter of the pGMM kernel), the pGMM kernel already performs well. Furthermore, by tuning the parameter $p$, this (deceptively simple) pGMM kernel even performs quite comparably to boosted trees.\n  Boosting and boosted trees are very popular in machine learning practice. For regression tasks, typically, practitioners use $L_2$ boost, i.e., for minimizing the $L_2$ loss. Sometimes for the purpose of robustness, the $L_1$ boost might be a choice. In this study, we implement $L_p$ boost for $p\\geq 1$ and include it in the package of ``Fast ABC-Boost''. Perhaps also surprisingly, the best performance (in terms of $L_2$ regression loss) is often attained at $p>2$, in some cases at $p\\gg 2$. This phenomenon has already been demonstrated by Li et al (UAI 2010) in the context of k-nearest neighbor classification using $L_p$ distances. In summary, the implementation of $L_p$ boost provides practitioners the additional flexibility of tuning boosting algorithms for potentially achieving better accuracy in regression applications.",
+    "published": "2022-07-18",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2207.08667v1.pdf"
+  },
+  {
+    "arxiv_id": "2010.04855v7",
+    "title": "Kernel Methods for Causal Functions: Dose, Heterogeneous, and Incremental Response Curves",
+    "authors": [
+      "Rahul Singh",
+      "Liyuan Xu",
+      "Arthur Gretton"
+    ],
+    "abstract": "We propose estimators based on kernel ridge regression for nonparametric causal functions such as dose, heterogeneous, and incremental response curves. Treatment and covariates may be discrete or continuous in general spaces. Due to a decomposition property specific to the RKHS, our estimators have simple closed form solutions. We prove uniform consistency with finite sample rates via original analysis of generalized kernel ridge regression. We extend our main results to counterfactual distributions and to causal functions identified by front and back door criteria. We achieve state-of-the-art performance in nonlinear simulations with many covariates, and conduct a policy evaluation of the US Job Corps training program for disadvantaged youths.",
+    "published": "2020-10-10",
+    "categories": [
+      "econ.EM",
+      "cs.LG",
+      "math.ST",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2010.04855v7.pdf"
+  },
+  {
+    "arxiv_id": "2101.04783v1",
+    "title": "Variable bandwidth kernel regression estimation",
+    "authors": [
+      "Janet Nakarmi",
+      "Hailin Sang",
+      "Lin Ge"
+    ],
+    "abstract": "In this paper we propose a variable bandwidth kernel regression estimator for $i.i.d.$ observations in $\\mathbb{R}^2$ to improve the classical Nadaraya-Watson estimator. The bias is improved to the order of $O(h_n^4)$ under the condition that the fifth order derivative of the density function and the sixth order derivative of the regression function are bounded and continuous. We also establish the central limit theorems for the proposed ideal and true variable kernel regression estimators. The simulation study confirms our results and demonstrates the advantage of the variable bandwidth kernel method over the classical kernel method.",
+    "published": "2021-01-12",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2101.04783v1.pdf"
+  },
+  {
+    "arxiv_id": "2108.04715v3",
+    "title": "Identifiability of Covariance Kernels in the Gaussian Process Regression Model",
+    "authors": [
+      "Jaehoan Kim",
+      "Jaeyong Lee"
+    ],
+    "abstract": "Gaussian process regression (GPR) model is a popular nonparametric regression model. In GPR, features of the regression function such as varying degrees of smoothness and periodicities are modeled through combining various covarinace kernels, which are supposed to model certain effects. The covariance kernels have unknown parameters which are estimated by the EM-algorithm or Markov Chain Monte Carlo. The estimated parameters are keys to the inference of the features of the regression functions, but identifiability of these parameters has not been investigated. In this paper, we prove identifiability of covariance kernel parameters in two radial basis mixed kernel GPR and radial basis and periodic mixed kernel GPR. We also provide some examples about non-identifiable cases in such mixed kernel GPRs.",
+    "published": "2021-08-10",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2108.04715v3.pdf"
+  },
+  {
+    "arxiv_id": "1909.11820v3",
+    "title": "A Mean-Field Theory for Kernel Alignment with Random Features in Generative and Discriminative Models",
+    "authors": [
+      "Masoud Badiei Khuzani",
+      "Liyue Shen",
+      "Shahin Shahrampour",
+      "Lei Xing"
+    ],
+    "abstract": "We propose a novel supervised learning method to optimize the kernel in the maximum mean discrepancy generative adversarial networks (MMD GANs), and the kernel support vector machines (SVMs). Specifically, we characterize a distributionally robust optimization problem to compute a good distribution for the random feature model of Rahimi and Recht. Due to the fact that the distributional optimization is infinite dimensional, we consider a Monte-Carlo sample average approximation (SAA) to obtain a more tractable finite dimensional optimization problem. We subsequently leverage a particle stochastic gradient descent (SGD) method to solve the derived finite dimensional optimization problem. Based on a mean-field analysis, we then prove that the empirical distribution of the interactive particles system at each iteration of the SGD follows the path of the gradient descent flow on the Wasserstein manifold. We also establish the non-asymptotic consistency of the finite sample estimator. We evaluate our kernel learning method for the hypothesis testing problem by evaluating the kernel MMD statistics, and show that our learning method indeed attains better power of the test for larger threshold values compared to an untrained kernel. Moreover, our empirical evaluation on benchmark data-sets shows the advantage of our kernel learning approach compared to alternative kernel learning methods.",
+    "published": "2019-09-25",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1909.11820v3.pdf"
+  },
+  {
+    "arxiv_id": "1805.00861v1",
+    "title": "Modelling cross-dependencies between Spain's regional tourism markets with an extension of the Gaussian process regression model",
+    "authors": [
+      "Oscar Claveria",
+      "Enric Monte",
+      "Salvador Torra"
+    ],
+    "abstract": "This study presents an extension of the Gaussian process regression model for multiple-input multiple-output forecasting. This approach allows modelling the cross-dependencies between a given set of input variables and generating a vectorial prediction. Making use of the existing correlations in international tourism demand to all seventeen regions of Spain, the performance of the proposed model is assessed in a multiple-step-ahead forecasting comparison. The results of the experiment in a multivariate setting show that the Gaussian process regression model significantly improves the forecasting accuracy of a multi-layer perceptron neural network used as a benchmark. The results reveal that incorporating the connections between different markets in the modelling process may prove very useful to refine predictions at a regional level.",
+    "published": "2018-05-02",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1805.00861v1.pdf"
+  },
+  {
+    "arxiv_id": "2203.09179v3",
+    "title": "Maximum Likelihood Estimation in Gaussian Process Regression is Ill-Posed",
+    "authors": [
+      "Toni Karvonen",
+      "Chris J. Oates"
+    ],
+    "abstract": "Gaussian process regression underpins countless academic and industrial applications of machine learning and statistics, with maximum likelihood estimation routinely used to select appropriate parameters for the covariance kernel. However, it remains an open problem to establish the circumstances in which maximum likelihood estimation is well-posed, that is, when the predictions of the regression model are insensitive to small perturbations of the data. This article identifies scenarios where the maximum likelihood estimator fails to be well-posed, in that the predictive distributions are not Lipschitz in the data with respect to the Hellinger distance. These failure cases occur in the noiseless data setting, for any Gaussian process with a stationary covariance function whose lengthscale parameter is estimated using maximum likelihood. Although the failure of maximum likelihood estimation is part of Gaussian process folklore, these rigorous theoretical results appear to be the first of their kind. The implication of these negative results is that well-posedness may need to be assessed post-hoc, on a case-by-case basis, when maximum likelihood estimation is used to train a Gaussian process model.",
+    "published": "2022-03-17",
+    "categories": [
+      "math.ST",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2203.09179v3.pdf"
+  },
+  {
+    "arxiv_id": "1302.4245v3",
+    "title": "Gaussian Process Kernels for Pattern Discovery and Extrapolation",
+    "authors": [
+      "Andrew Gordon Wilson",
+      "Ryan Prescott Adams"
+    ],
+    "abstract": "Gaussian processes are rich distributions over functions, which provide a Bayesian nonparametric approach to smoothing and interpolation. We introduce simple closed form kernels that can be used with Gaussian processes to discover patterns and enable extrapolation. These kernels are derived by modelling a spectral density -- the Fourier transform of a kernel -- with a Gaussian mixture. The proposed kernels support a broad class of stationary covariances, but Gaussian process inference remains simple and analytic. We demonstrate the proposed kernels by discovering patterns and performing long range extrapolation on synthetic examples, as well as atmospheric CO2 trends and airline passenger data. We also show that we can reconstruct standard covariances within our framework.",
+    "published": "2013-02-18",
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1302.4245v3.pdf"
+  },
+  {
+    "arxiv_id": "1912.06552v1",
+    "title": "Active emulation of computer codes with Gaussian processes -- Application to remote sensing",
+    "authors": [
+      "Daniel Heestermans Svendsen",
+      "Luca Martino",
+      "Gustau Camps-Valls"
+    ],
+    "abstract": "Many fields of science and engineering rely on running simulations with complex and computationally expensive models to understand the involved processes in the system of interest. Nevertheless, the high cost involved hamper reliable and exhaustive simulations. Very often such codes incorporate heuristics that ironically make them less tractable and transparent. This paper introduces an active learning methodology for adaptively constructing surrogate models, i.e. emulators, of such costly computer codes in a multi-output setting. The proposed technique is sequential and adaptive, and is based on the optimization of a suitable acquisition function. It aims to achieve accurate approximations, model tractability, as well as compact and expressive simulated datasets. In order to achieve this, the proposed Active Multi-Output Gaussian Process Emulator (AMOGAPE) combines the predictive capacity of Gaussian Processes (GPs) with the design of an acquisition function that favors sampling in low density and fluctuating regions of the approximation functions. Comparing different acquisition functions, we illustrate the promising performance of the method for the construction of emulators with toy examples, as well as for a widely used remote sensing transfer code.",
+    "published": "2019-12-13",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1912.06552v1.pdf"
+  },
+  {
+    "arxiv_id": "1911.00955v2",
+    "title": "Gaussian process surrogate modeling with manipulating factors for carbon nanotube growth experiments",
+    "authors": [
+      "Chiwoo Park",
+      "Rahul Rao",
+      "Pavel Nikolaev",
+      "Benji Maruyama"
+    ],
+    "abstract": "This paper presents a new Gaussian process (GP) surrogate modeling for predicting the outcome of a physical experiment where some experimental inputs are controlled by other manipulating factors. Particularly, we are interested in the case where the control precision is not very high, so the input factor values vary significantly even under the same setting of the corresponding manipulating factors. The case is observed in our main application to carbon nanotube growth experiments, where one experimental input among many is manipulated by another manipulating factors, and the relation between the input and the manipulating factors significantly varies in the dates and times of operations. Due to this variation, the standard GP surrogate that directly relates the manipulating factors to the experimental outcome does not provide a great predictive power on the outcome. At the same time, the GP model relating the main factors to the outcome directly is not appropriate for the prediction purpose because the main factors cannot be accurately set as planned for a future experiment. Motivated by the carbon nanotube example, we propose a two-tiered GP model, where the bottom tier relates the manipulating factors to the corresponding main factors with potential biases and variation independent of the manipulating factors, and the top tier relates the main factors to the experimental outcome. Our two-tier model explicitly models the propagation of the control uncertainty to the experimental outcome through the two GP modeling tiers. We present the inference and hyper-parameter estimation of the proposed model. The proposed approach is illustrated with the motivating example of a closed-loop autonomous research system for carbon nanotube growth experiments, and the test results are reported with the comparison to a benchmark method, i.e. a standard GP model.",
+    "published": "2019-11-03",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1911.00955v2.pdf"
+  },
+  {
+    "arxiv_id": "2002.02826v3",
+    "title": "Conditional Deep Gaussian Processes: multi-fidelity kernel learning",
+    "authors": [
+      "Chi-Ken Lu",
+      "Patrick Shafto"
+    ],
+    "abstract": "Deep Gaussian Processes (DGPs) were proposed as an expressive Bayesian model capable of a mathematically grounded estimation of uncertainty. The expressivity of DPGs results from not only the compositional character but the distribution propagation within the hierarchy. Recently, [1] pointed out that the hierarchical structure of DGP well suited modeling the multi-fidelity regression, in which one is provided sparse observations with high precision and plenty of low fidelity observations. We propose the conditional DGP model in which the latent GPs are directly supported by the fixed lower fidelity data. Then the moment matching method in [2] is applied to approximate the marginal prior of conditional DGP with a GP. The obtained effective kernels are implicit functions of the lower-fidelity data, manifesting the expressivity contributed by distribution propagation within the hierarchy. The hyperparameters are learned via optimizing the approximate marginal likelihood. Experiments with synthetic and high dimensional data show comparable performance against other multi-fidelity regression methods, variational inference, and multi-output GP. We conclude that, with the low fidelity data and the hierarchical DGP structure, the effective kernel encodes the inductive bias for true function allowing the compositional freedom discussed in [3,4].",
+    "published": "2020-02-07",
+    "categories": [
+      "cs.LG",
+      "cond-mat.dis-nn",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2002.02826v3.pdf"
+  },
+  {
+    "arxiv_id": "1911.09946v3",
+    "title": "Actively Learning Gaussian Process Dynamics",
+    "authors": [
+      "Mona Buisson-Fenet",
+      "Friedrich Solowjow",
+      "Sebastian Trimpe"
+    ],
+    "abstract": "Despite the availability of ever more data enabled through modern sensor and computer technology, it still remains an open problem to learn dynamical systems in a sample-efficient way. We propose active learning strategies that leverage information-theoretical properties arising naturally during Gaussian process regression, while respecting constraints on the sampling process imposed by the system dynamics. Sample points are selected in regions with high uncertainty, leading to exploratory behavior and data-efficient training of the model. All results are finally verified in an extensive numerical benchmark.",
+    "published": "2019-11-22",
+    "categories": [
+      "cs.LG",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1911.09946v3.pdf"
+  },
+  {
+    "arxiv_id": "1809.04967v3",
+    "title": "Gaussian process classification using posterior linearisation",
+    "authors": [
+      "\u00c1ngel F. Garc\u00eda-Fern\u00e1ndez",
+      "Filip Tronarp",
+      "Simo S\u00e4rkk\u00e4"
+    ],
+    "abstract": "This paper proposes a new algorithm for Gaussian process classification based on posterior linearisation (PL). In PL, a Gaussian approximation to the posterior density is obtained iteratively using the best possible linearisation of the conditional mean of the labels and accounting for the linearisation error. PL has some theoretical advantages over expectation propagation (EP): all calculated covariance matrices are positive definite and there is a local convergence theorem. In experimental data, PL has better performance than EP with the noisy threshold likelihood and the parallel implementation of the algorithms.",
+    "published": "2018-09-13",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1809.04967v3.pdf"
+  },
+  {
+    "arxiv_id": "1110.4411v1",
+    "title": "Gaussian Process Regression Networks",
+    "authors": [
+      "Andrew Gordon Wilson",
+      "David A. Knowles",
+      "Zoubin Ghahramani"
+    ],
+    "abstract": "We introduce a new regression framework, Gaussian process regression networks (GPRN), which combines the structural properties of Bayesian neural networks with the non-parametric flexibility of Gaussian processes. This model accommodates input dependent signal and noise correlations between multiple response variables, input dependent length-scales and amplitudes, and heavy-tailed predictive distributions. We derive both efficient Markov chain Monte Carlo and variational Bayes inference procedures for this model. We apply GPRN as a multiple output regression and multivariate volatility model, demonstrating substantially improved performance over eight popular multiple output (multi-task) Gaussian process models and three multivariate volatility models on benchmark datasets, including a 1000 dimensional gene expression dataset.",
+    "published": "2011-10-19",
+    "categories": [
+      "stat.ML",
+      "q-fin.ST",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\1110.4411v1.pdf"
+  },
+  {
+    "arxiv_id": "2310.19390v2",
+    "title": "Implicit Manifold Gaussian Process Regression",
+    "authors": [
+      "Bernardo Fichera",
+      "Viacheslav Borovitskiy",
+      "Andreas Krause",
+      "Aude Billard"
+    ],
+    "abstract": "Gaussian process regression is widely used because of its ability to provide well-calibrated uncertainty estimates and handle small or sparse datasets. However, it struggles with high-dimensional data. One possible way to scale this technique to higher dimensions is to leverage the implicit low-dimensional manifold upon which the data actually lies, as postulated by the manifold hypothesis. Prior work ordinarily requires the manifold structure to be explicitly provided though, i.e. given by a mesh or be known to be one of the well-known manifolds like the sphere. In contrast, in this paper we propose a Gaussian process regression technique capable of inferring implicit structure directly from data (labeled and unlabeled) in a fully differentiable way. For the resulting model, we discuss its convergence to the Mat\u00e9rn Gaussian process on the assumed manifold. Our technique scales up to hundreds of thousands of data points, and may improve the predictive performance and calibration of the standard Gaussian process regression in high-dimensional settings.",
+    "published": "2023-10-30",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2310.19390v2.pdf"
+  },
+  {
+    "arxiv_id": "2304.12923v1",
+    "title": "Quantum Gaussian Process Regression for Bayesian Optimization",
+    "authors": [
+      "Frederic Rapp",
+      "Marco Roth"
+    ],
+    "abstract": "Gaussian process regression is a well-established Bayesian machine learning method. We propose a new approach to Gaussian process regression using quantum kernels based on parameterized quantum circuits. By employing a hardware-efficient feature map and careful regularization of the Gram matrix, we demonstrate that the variance information of the resulting quantum Gaussian process can be preserved. We also show that quantum Gaussian processes can be used as a surrogate model for Bayesian optimization, a task that critically relies on the variance of the surrogate model. To demonstrate the performance of this quantum Bayesian optimization algorithm, we apply it to the hyperparameter optimization of a machine learning model which performs regression on a real-world dataset. We benchmark the quantum Bayesian optimization against its classical counterpart and show that quantum version can match its performance.",
+    "published": "2023-04-25",
+    "categories": [
+      "quant-ph",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2304.12923v1.pdf"
+  },
+  {
+    "arxiv_id": "2412.06160v1",
+    "title": "Obstacle-aware Gaussian Process Regression",
+    "authors": [
+      "Gaurav Shrivastava"
+    ],
+    "abstract": "Obstacle-aware trajectory navigation is crucial for many systems. For example, in real-world navigation tasks, an agent must avoid obstacles, such as furniture in a room, while planning a trajectory. Gaussian Process (GP) regression, in its current form, fits a curve to a set of data pairs, with each pair consisting of an input point 'x' and its corresponding target regression value 'y(x)' (a positive data pair). However, to account for obstacles, we need to constrain the GP to avoid a target regression value 'y(x-)' for an input point 'x-' (a negative data pair). Our proposed approach, 'GP-ND' (Gaussian Process with Negative Datapairs), fits the model to the positive data pairs while avoiding the negative ones. Specifically, we model the negative data pairs using small blobs of Gaussian distribution and maximize their KL divergence from the GP. Our framework jointly optimizes for both positive and negative data pairs. Our experiments show that GP-ND outperforms traditional GP learning. Additionally, our framework does not affect the scalability of Gaussian Process regression and helps the model converge faster as the data size increases.",
+    "published": "2024-12-09",
+    "categories": [
+      "cs.LG",
+      "math.PR",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2412.06160v1.pdf"
+  },
+  {
+    "arxiv_id": "1509.05142v6",
+    "title": "Fast Gaussian Process Regression for Big Data",
+    "authors": [
+      "Sourish Das",
+      "Sasanka Roy",
+      "Rajiv Sambasivan"
+    ],
+    "abstract": "Gaussian Processes are widely used for regression tasks. A known limitation in the application of Gaussian Processes to regression tasks is that the computation of the solution requires performing a matrix inversion. The solution also requires the storage of a large matrix in memory. These factors restrict the application of Gaussian Process regression to small and moderate size data sets. We present an algorithm that combines estimates from models developed using subsets of the data obtained in a manner similar to the bootstrap. The sample size is a critical parameter for this algorithm. Guidelines for reasonable choices of algorithm parameters, based on detailed experimental study, are provided. Various techniques have been proposed to scale Gaussian Processes to large scale regression tasks. The most appropriate choice depends on the problem context. The proposed method is most appropriate for problems where an additive model works well and the response depends on a small number of features. The minimax rate of convergence for such problems is attractive and we can build effective models with a small subset of the data. The Stochastic Variational Gaussian Process and the Sparse Gaussian Process are also appropriate choices for such problems. These methods pick a subset of data based on theoretical considerations. The proposed algorithm uses bagging and random sampling. Results from experiments conducted as part of this study indicate that the algorithm presented in this work can be as effective as these methods. Model stacking can be used to combine the model developed with the proposed method with models from other methods for large scale regression such as Gradient Boosted Trees. This can yield performance gains.",
+    "published": "2015-09-17",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1509.05142v6.pdf"
+  },
+  {
+    "arxiv_id": "2312.05910v5",
+    "title": "Ensemble Kalman Filtering Meets Gaussian Process SSM for Non-Mean-Field and Online Inference",
+    "authors": [
+      "Zhidi Lin",
+      "Yiyong Sun",
+      "Feng Yin",
+      "Alexandre Hoang Thi\u00e9ry"
+    ],
+    "abstract": "The Gaussian process state-space models (GPSSMs) represent a versatile class of data-driven nonlinear dynamical system models. However, the presence of numerous latent variables in GPSSM incurs unresolved issues for existing variational inference approaches, particularly under the more realistic non-mean-field (NMF) assumption, including extensive training effort, compromised inference accuracy, and infeasibility for online applications, among others. In this paper, we tackle these challenges by incorporating the ensemble Kalman filter (EnKF), a well-established model-based filtering technique, into the NMF variational inference framework to approximate the posterior distribution of the latent states. This novel marriage between EnKF and GPSSM not only eliminates the need for extensive parameterization in learning variational distributions, but also enables an interpretable, closed-form approximation of the evidence lower bound (ELBO). Moreover, owing to the streamlined parameterization via the EnKF, the new GPSSM model can be easily accommodated in online learning applications. We demonstrate that the resulting EnKF-aided online algorithm embodies a principled objective function by ensuring data-fitting accuracy while incorporating model regularizations to mitigate overfitting. We also provide detailed analysis and fresh insights for the proposed algorithms. Comprehensive evaluation across diverse real and synthetic datasets corroborates the superior learning and inference performance of our EnKF-aided variational inference algorithms compared to existing methods.",
+    "published": "2023-12-10",
+    "categories": [
+      "cs.LG",
+      "eess.SP",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2312.05910v5.pdf"
+  },
+  {
+    "arxiv_id": "2010.02424v1",
+    "title": "Splitting Gaussian Process Regression for Streaming Data",
+    "authors": [
+      "Nick Terry",
+      "Youngjun Choe"
+    ],
+    "abstract": "Gaussian processes offer a flexible kernel method for regression. While Gaussian processes have many useful theoretical properties and have proven practically useful, they suffer from poor scaling in the number of observations. In particular, the cubic time complexity of updating standard Gaussian process models make them generally unsuitable for application to streaming data. We propose an algorithm for sequentially partitioning the input space and fitting a localized Gaussian process to each disjoint region. The algorithm is shown to have superior time and space complexity to existing methods, and its sequential nature permits application to streaming data. The algorithm constructs a model for which the time complexity of updating is tightly bounded above by a pre-specified parameter. To the best of our knowledge, the model is the first local Gaussian process regression model to achieve linear memory complexity. Theoretical continuity properties of the model are proven. We demonstrate the efficacy of the resulting model on multi-dimensional regression tasks for streaming data.",
+    "published": "2020-10-06",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2010.02424v1.pdf"
+  },
+  {
+    "arxiv_id": "1512.03929v1",
+    "title": "Quantum assisted Gaussian process regression",
+    "authors": [
+      "Zhikuan Zhao",
+      "Jack K. Fitzsimons",
+      "Joseph F. Fitzsimons"
+    ],
+    "abstract": "Gaussian processes (GP) are a widely used model for regression problems in supervised machine learning. Implementation of GP regression typically requires $O(n^3)$ logic gates. We show that the quantum linear systems algorithm [Harrow et al., Phys. Rev. Lett. 103, 150502 (2009)] can be applied to Gaussian process regression (GPR), leading to an exponential reduction in computation time in some instances. We show that even in some cases not ideally suited to the quantum linear systems algorithm, a polynomial increase in efficiency still occurs.",
+    "published": "2015-12-12",
+    "categories": [
+      "quant-ph",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1512.03929v1.pdf"
+  },
+  {
+    "arxiv_id": "2311.00463v2",
+    "title": "Robust and Conjugate Gaussian Process Regression",
+    "authors": [
+      "Matias Altamirano",
+      "Fran\u00e7ois-Xavier Briol",
+      "Jeremias Knoblauch"
+    ],
+    "abstract": "To enable closed form conditioning, a common assumption in Gaussian process (GP) regression is independent and identically distributed Gaussian observation noise. This strong and simplistic assumption is often violated in practice, which leads to unreliable inferences and uncertainty quantification. Unfortunately, existing methods for robustifying GPs break closed-form conditioning, which makes them less attractive to practitioners and significantly more computationally expensive. In this paper, we demonstrate how to perform provably robust and conjugate Gaussian process (RCGP) regression at virtually no additional cost using generalised Bayesian inference. RCGP is particularly versatile as it enables exact conjugate closed form updates in all settings where standard GPs admit them. To demonstrate its strong empirical performance, we deploy RCGP for problems ranging from Bayesian optimisation to sparse variational Gaussian processes.",
+    "published": "2023-11-01",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2311.00463v2.pdf"
+  },
+  {
+    "arxiv_id": "1603.09279v2",
+    "title": "On the Geometry of Message Passing Algorithms for Gaussian Reciprocal Processes",
+    "authors": [
+      "Francesca Paola Carli"
+    ],
+    "abstract": "Reciprocal processes are acausal generalizations of Markov processes introduced by Bernstein in 1932. In the literature, a significant amount of attention has been focused on developing dynamical models for reciprocal processes. Recently, probabilistic graphical models for reciprocal processes have been provided. This opens the way to the application of efficient inference algorithms in the machine learning literature to solve the smoothing problem for reciprocal processes. Such algorithms are known to converge if the underlying graph is a tree. This is not the case for a reciprocal process, whose associated graphical model is a single loop network. The contribution of this paper is twofold. First, we introduce belief propagation for Gaussian reciprocal processes. Second, we establish a link between convergence analysis of belief propagation for Gaussian reciprocal processes and stability theory for differentially positive systems.",
+    "published": "2016-03-30",
+    "categories": [
+      "stat.ML",
+      "math.OC"
+    ],
+    "pdf_path": "data/papers\\1603.09279v2.pdf"
+  },
+  {
+    "arxiv_id": "2004.04632v1",
+    "title": "Nonnegativity-Enforced Gaussian Process Regression",
+    "authors": [
+      "Andrew Pensoneault",
+      "Xiu Yang",
+      "Xueyu Zhu"
+    ],
+    "abstract": "Gaussian Process (GP) regression is a flexible non-parametric approach to approximate complex models. In many cases, these models correspond to processes with bounded physical properties. Standard GP regression typically results in a proxy model which is unbounded for all temporal or spacial points, and thus leaves the possibility of taking on infeasible values. We propose an approach to enforce the physical constraints in a probabilistic way under the GP regression framework. In addition, this new approach reduces the variance in the resulting GP model.",
+    "published": "2020-04-07",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\2004.04632v1.pdf"
+  },
+  {
+    "arxiv_id": "2408.02331v2",
+    "title": "Explaining and Connecting Kriging with Gaussian Process Regression",
+    "authors": [
+      "Marius Marinescu"
+    ],
+    "abstract": "Kriging and Gaussian Process Regression are statistical methods that allow predicting the outcome of a random process or a random field by using a sample of correlated observations. In other words, the random process or random field is partially observed, and by using a sample a prediction is made, pointwise or as a whole, where the latter can be thought as a reconstruction. In addition, the techniques permit to give a measure of uncertainty of the prediction. The methods have different origins. Kriging comes from geostatistics, a field which started to develop around 1950 oriented to mining valuation problems, whereas Gaussian Process Regression has gained popularity in the area of machine learning in the last decade of the previous century. In the literature, the methods are usually presented as being the same technique. However, beyond this affirmation, the techniques have yet not been compared on a thorough mathematical basis and neither explained why and under which conditions this affirmation holds. Furthermore, Kriging has many variants and this affirmation should be precised. In this paper, this gap is filled. It is shown, step by step how both methods are deduced from the first principles -- with a major focus on Kriging, the mathematical connection between them, and which Kriging variant corresponds to which Gaussian Process Regression set up. The three most widely used versions of Kriging are considered: Simple Kriging, Ordinary Kriging and Universal Kriging. It is found, that despite their closeness, the techniques are different in their approach and assumptions, in a similar way the Least Square method, the Best Linear Unbiased Estimator method and the Likelihood method in regression do. I hope this work deepen the understanding of the relation between Kriging and Gaussian Process Regression, and serves as a cohesive introductory resource for researchers.",
+    "published": "2024-08-05",
+    "categories": [
+      "stat.ME",
+      "math.ST"
+    ],
+    "pdf_path": "data/papers\\2408.02331v2.pdf"
+  },
+  {
+    "arxiv_id": "1707.05534v2",
+    "title": "Latent Gaussian Process Regression",
+    "authors": [
+      "Erik Bodin",
+      "Neill D. F. Campbell",
+      "Carl Henrik Ek"
+    ],
+    "abstract": "We introduce Latent Gaussian Process Regression which is a latent variable extension allowing modelling of non-stationary multi-modal processes using GPs. The approach is built on extending the input space of a regression problem with a latent variable that is used to modulate the covariance function over the training data. We show how our approach can be used to model multi-modal and non-stationary processes. We exemplify the approach on a set of synthetic data and provide results on real data from motion capture and geostatistics.",
+    "published": "2017-07-18",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1707.05534v2.pdf"
+  },
+  {
+    "arxiv_id": "2205.07764v2",
+    "title": "On the inability of Gaussian process regression to optimally learn compositional functions",
+    "authors": [
+      "Matteo Giordano",
+      "Kolyan Ray",
+      "Johannes Schmidt-Hieber"
+    ],
+    "abstract": "We rigorously prove that deep Gaussian process priors can outperform Gaussian process priors if the target function has a compositional structure. To this end, we study information-theoretic lower bounds for posterior contraction rates for Gaussian process regression in a continuous regression model. We show that if the true function is a generalized additive function, then the posterior based on any mean-zero Gaussian process can only recover the truth at a rate that is strictly slower than the minimax rate by a factor that is polynomially suboptimal in the sample size $n$.",
+    "published": "2022-05-16",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.ST"
+    ],
+    "pdf_path": "data/papers\\2205.07764v2.pdf"
+  },
+  {
+    "arxiv_id": "2507.09824v2",
+    "title": "Spatial Dependencies in Item Response Theory: Gaussian Process Priors for Geographic and Cognitive Measurement",
+    "authors": [
+      "Mingya Huang",
+      "Soham Ghosh"
+    ],
+    "abstract": "Measurement validity in Item Response Theory depends on appropriately modeling dependencies between items when these reflect meaningful theoretical structures rather than random measurement error. In ecological assessment, citizen scientists identifying species across geographic regions exhibit systematic spatial patterns in task difficulty due to environmental factors. Similarly, in Author Recognition Tests, literary knowledge organizes by genre, where familiarity with science fiction authors systematically predicts recognition of other science fiction authors. Current spatial Item Response Theory methods, represented by the 1PLUS, 2PLUS, and 3PLUS model family, address these dependencies but remain limited by (1) binary response restrictions, and (2) conditional autoregressive priors that impose rigid local correlation assumptions, preventing effective modeling of complex spatial relationships. Our proposed method, Spatial Gaussian Process Item Response Theory (SGP-IRT), addresses these limitations by replacing conditional autoregressive priors with flexible Gaussian process priors that adapt to complex dependency structures while maintaining principled uncertainty quantification. SGP-IRT accommodates polytomous responses and models spatial dependencies in both geographic and abstract cognitive spaces, where items cluster by theoretical constructs rather than physical proximity. Simulation studies demonstrate improved parameter recovery, particularly for item difficulty estimation. Empirical applications show enhanced recovery of meaningful difficulty surfaces and improved measurement precision across psychological, educational, and ecological research applications.",
+    "published": "2025-07-13",
+    "categories": [
+      "stat.AP",
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2507.09824v2.pdf"
+  },
+  {
+    "arxiv_id": "2411.18989v2",
+    "title": "Intrinsic Gaussian Process Regression Modeling for Manifold-valued Response Variable",
+    "authors": [
+      "Zhanfeng Wang",
+      "Xinyu Li",
+      "Hao Ding",
+      "Jian Qing Shi"
+    ],
+    "abstract": "Extrinsic Gaussian process regression methods, such as wrapped Gaussian process, have been developed to analyze manifold data. However, there is a lack of intrinsic Gaussian process methods for studying complex data with manifold-valued response variables. In this paper, we first apply the parallel transport operator on Riemannian manifold to propose an intrinsic covariance structure that addresses a critical aspect of constructing a well-defined Gaussian process regression model. We then propose a novel intrinsic Gaussian process regression model for manifold-valued data, which can be applied to data situated not only on Euclidean submanifolds but also on manifolds without a natural ambient space. We establish the asymptotic properties of the proposed models, including information consistency and posterior consistency, and we also show that the posterior distribution of the regression function is invariant to the choice of orthonormal frames for the coordinate representations of the covariance function. Numerical studies, including simulation and real examples, indicate that the proposed methods work well.",
+    "published": "2024-11-28",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2411.18989v2.pdf"
+  },
+  {
+    "arxiv_id": "2101.01137v2",
+    "title": "Gauss-Legendre Features for Gaussian Process Regression",
+    "authors": [
+      "Paz Fink Shustin",
+      "Haim Avron"
+    ],
+    "abstract": "Gaussian processes provide a powerful probabilistic kernel learning framework, which allows learning high quality nonparametric regression models via methods such as Gaussian process regression. Nevertheless, the learning phase of Gaussian process regression requires massive computations which are not realistic for large datasets. In this paper, we present a Gauss-Legendre quadrature based approach for scaling up Gaussian process regression via a low rank approximation of the kernel matrix. We utilize the structure of the low rank approximation to achieve effective hyperparameter learning, training and prediction. Our method is very much inspired by the well-known random Fourier features approach, which also builds low-rank approximations via numerical integration. However, our method is capable of generating high quality approximation to the kernel using an amount of features which is poly-logarithmic in the number of training points, while similar guarantees will require an amount that is at the very least linear in the number of training points when random Fourier features. Furthermore, the structure of the low-rank approximation that our method builds is subtly different from the one generated by random Fourier features, and this enables much more efficient hyperparameter learning. The utility of our method for learning with low-dimensional datasets is demonstrated using numerical experiments.",
+    "published": "2021-01-04",
+    "categories": [
+      "math.NA",
+      "cs.DS",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2101.01137v2.pdf"
+  },
+  {
+    "arxiv_id": "2511.17415v1",
+    "title": "Bayesian Bridge Gaussian Process Regression",
+    "authors": [
+      "Minshen Xu",
+      "Shiwei Lan",
+      "Lulu Kang"
+    ],
+    "abstract": "The performance of Gaussian Process (GP) regression is often hampered by the curse of dimensionality, which inflates computational cost and reduces predictive power in high-dimensional problems. Variable selection is thus crucial for building efficient and accurate GP models. Inspired by Bayesian bridge regression, we propose the Bayesian Bridge Gaussian Process Regression (B\\textsuperscript{2}GPR) model. This framework places $\\ell_q$-norm constraints on key GP parameters to automatically induce sparsity and identify active variables. We formulate two distinct versions: one for $q=2$ using conjugate Gaussian priors, and another for $0<q<2$ that employs constrained flat priors, leading to non-standard, norm-constrained posterior distributions. To enable posterior inference, we design a Gibbs sampling algorithm that integrates Spherical Hamiltonian Monte Carlo (SphHMC) to efficiently sample from the constrained posteriors when $0<q<2$. Simulations and a real-data application confirm that B\\textsuperscript{2}GPR offers superior variable selection and prediction compared to alternative approaches.",
+    "published": "2025-11-21",
+    "categories": [
+      "stat.ME"
+    ],
+    "pdf_path": "data/papers\\2511.17415v1.pdf"
+  },
+  {
+    "arxiv_id": "2506.14828v1",
+    "title": "Accurate and Uncertainty-Aware Multi-Task Prediction of HEA Properties Using Prior-Guided Deep Gaussian Processes",
+    "authors": [
+      "Sk Md Ahnaf Akif Alvi",
+      "Mrinalini Mulukutla",
+      "Nicolas Flores",
+      "Danial Khatamsaz",
+      "Jan Janssen",
+      "Danny Perez",
+      "Douglas Allaire",
+      "Vahid Attari",
+      "Raymundo Arroyave"
+    ],
+    "abstract": "Surrogate modeling techniques have become indispensable in accelerating the discovery and optimization of high-entropy alloys(HEAs), especially when integrating computational predictions with sparse experimental observations. This study systematically evaluates the fitting performance of four prominent surrogate models conventional Gaussian Processes(cGP), Deep Gaussian Processes(DGP), encoder-decoder neural networks for multi-output regression and XGBoost applied to a hybrid dataset of experimental and computational properties in the AlCoCrCuFeMnNiV HEA system. We specifically assess their capabilities in predicting correlated material properties, including yield strength, hardness, modulus, ultimate tensile strength, elongation, and average hardness under dynamic and quasi-static conditions, alongside auxiliary computational properties. The comparison highlights the strengths of hierarchical and deep modeling approaches in handling heteroscedastic, heterotopic, and incomplete data commonly encountered in materials informatics. Our findings illustrate that DGP infused with machine learning-based prior outperform other surrogates by effectively capturing inter-property correlations and input-dependent uncertainty. This enhanced predictive accuracy positions advanced surrogate models as powerful tools for robust and data-efficient materials design.",
+    "published": "2025-06-13",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "pdf_path": "data/papers\\2506.14828v1.pdf"
+  },
+  {
+    "arxiv_id": "1405.7569v1",
+    "title": "Functional Gaussian processes for regression with linear PDE models",
+    "authors": [
+      "Ngoc-Cuong Nguyen",
+      "Jaime Peraire"
+    ],
+    "abstract": "In this paper, we present a new statistical approach to the problem of incorporating experimental observations into a mathematical model described by linear partial differential equations (PDEs) to improve the prediction of the state of a physical system. We augment the linear PDE with a functional that accounts for the uncertainty in the mathematical model and is modeled as a {\\em Gaussian process}. This gives rise to a stochastic PDE which is characterized by the Gaussian functional. We develop a {\\em functional Gaussian process regression} method to determine the posterior mean and covariance of the Gaussian functional, thereby solving the stochastic PDE to obtain the posterior distribution for our prediction of the physical state. Our method has the following features which distinguish itself from other regression methods. First, it incorporates both the mathematical model and the observations into the regression procedure. Second, it can handle the observations given in the form of linear functionals of the field variable. Third, the method is non-parametric in the sense that it provides a systematic way to optimally determine the prior covariance operator of the Gaussian functional based on the observations. Fourth, it provides the posterior distribution quantifying the magnitude of uncertainty in our prediction of the physical state. We present numerical results to illustrate these features of the method and compare its performance to that of the standard Gaussian process regression.",
+    "published": "2014-05-29",
+    "categories": [
+      "math.AP",
+      "math.PR",
+      "stat.CO",
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\1405.7569v1.pdf"
+  },
+  {
+    "arxiv_id": "2012.11857v1",
+    "title": "Gaussian Process Regression constrained by Boundary Value Problems",
+    "authors": [
+      "Mamikon Gulian",
+      "Ari Frankel",
+      "Laura Swiler"
+    ],
+    "abstract": "We develop a framework for Gaussian processes regression constrained by boundary value problems. The framework may be applied to infer the solution of a well-posed boundary value problem with a known second-order differential operator and boundary conditions, but for which only scattered observations of the source term are available. Scattered observations of the solution may also be used in the regression. The framework combines co-kriging with the linear transformation of a Gaussian process together with the use of kernels given by spectral expansions in eigenfunctions of the boundary value problem. Thus, it benefits from a reduced-rank property of covariance matrices. We demonstrate that the resulting framework yields more accurate and stable solution inference as compared to physics-informed Gaussian process regression without boundary condition constraints.",
+    "published": "2020-12-22",
+    "categories": [
+      "cs.LG",
+      "math.NA",
+      "math.PR",
+      "math.ST"
+    ],
+    "pdf_path": "data/papers\\2012.11857v1.pdf"
+  },
+  {
+    "arxiv_id": "1402.5876v4",
+    "title": "Manifold Gaussian Processes for Regression",
+    "authors": [
+      "Roberto Calandra",
+      "Jan Peters",
+      "Carl Edward Rasmussen",
+      "Marc Peter Deisenroth"
+    ],
+    "abstract": "Off-the-shelf Gaussian Process (GP) covariance functions encode smoothness assumptions on the structure of the function to be modeled. To model complex and non-differentiable functions, these smoothness assumptions are often too restrictive. One way to alleviate this limitation is to find a different representation of the data by introducing a feature space. This feature space is often learned in an unsupervised way, which might lead to data representations that are not useful for the overall regression task. In this paper, we propose Manifold Gaussian Processes, a novel supervised method that jointly learns a transformation of the data into a feature space and a GP regression from the feature space to observed space. The Manifold GP is a full GP and allows to learn data representations, which are useful for the overall regression task. As a proof-of-concept, we evaluate our approach on complex non-smooth functions where standard GPs perform poorly, such as step functions and robotics tasks with contacts.",
+    "published": "2014-02-24",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1402.5876v4.pdf"
+  },
+  {
+    "arxiv_id": "2009.10862v5",
+    "title": "An Intuitive Tutorial to Gaussian Process Regression",
+    "authors": [
+      "Jie Wang"
+    ],
+    "abstract": "This tutorial aims to provide an intuitive introduction to Gaussian process regression (GPR). GPR models have been widely used in machine learning applications due to their representation flexibility and inherent capability to quantify uncertainty over predictions. The tutorial starts with explaining the basic concepts that a Gaussian process is built on, including multivariate normal distribution, kernels, non-parametric models, and joint and conditional probability. It then provides a concise description of GPR and an implementation of a standard GPR algorithm. In addition, the tutorial reviews packages for implementing state-of-the-art Gaussian process algorithms. This tutorial is accessible to a broad audience, including those new to machine learning, ensuring a clear understanding of GPR fundamentals.",
+    "published": "2020-09-22",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "pdf_path": "data/papers\\2009.10862v5.pdf"
+  },
+  {
+    "arxiv_id": "2011.11725v1",
+    "title": "Data-aided Sensing for Gaussian Process Regression in IoT Systems",
+    "authors": [
+      "Jinho Choi"
+    ],
+    "abstract": "In this paper, for efficient data collection with limited bandwidth, data-aided sensing is applied to Gaussian process regression that is used to learn data sets collected from sensors in Internet-of-Things systems. We focus on the interpolation of sensors' measurements from a small number of measurements uploaded by a fraction of sensors using Gaussian process regression with data-aided sensing. Thanks to active sensor selection, it is shown that Gaussian process regression with data-aided sensing can provide a good estimate of a complete data set compared to that with random selection. With multichannel ALOHA, data-aided sensing is generalized for distributed selective uploading when sensors can have feedback of predictions of their measurements so that each sensor can decide whether or not it uploads by comparing its measurement with the predicted one. Numerical results show that modified multichannel ALOHA with predictions can help improve the performance of Gaussian process regression with data-aided sensing compared to conventional multichannel ALOHA with equal uploading probability.",
+    "published": "2020-11-23",
+    "categories": [
+      "cs.IT",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2011.11725v1.pdf"
+  },
+  {
+    "arxiv_id": "1212.6246v1",
+    "title": "Gaussian Process Regression with Heteroscedastic or Non-Gaussian Residuals",
+    "authors": [
+      "Chunyi Wang",
+      "Radford M. Neal"
+    ],
+    "abstract": "Gaussian Process (GP) regression models typically assume that residuals are Gaussian and have the same variance for all observations. However, applications with input-dependent noise (heteroscedastic residuals) frequently arise in practice, as do applications in which the residuals do not have a Gaussian distribution. In this paper, we propose a GP Regression model with a latent variable that serves as an additional unobserved covariate for the regression. This model (which we call GPLC) allows for heteroscedasticity since it allows the function to have a changing partial derivative with respect to this unobserved covariate. With a suitable covariance function, our GPLC model can handle (a) Gaussian residuals with input-dependent variance, or (b) non-Gaussian residuals with input-dependent variance, or (c) Gaussian residuals with constant variance. We compare our model, using synthetic datasets, with a model proposed by Goldberg, Williams and Bishop (1998), which we refer to as GPLV, which only deals with case (a), as well as a standard GP model which can handle only case (c). Markov Chain Monte Carlo methods are developed for both modelsl. Experiments show that when the data is heteroscedastic, both GPLC and GPLV give better results (smaller mean squared error and negative log-probability density) than standard GP regression. In addition, when the residual are Gaussian, our GPLC model is generally nearly as good as GPLV, while when the residuals are non-Gaussian, our GPLC model is better than GPLV.",
+    "published": "2012-12-26",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\1212.6246v1.pdf"
+  },
+  {
+    "arxiv_id": "0911.5107v1",
+    "title": "Sparse Convolved Multiple Output Gaussian Processes",
+    "authors": [
+      "Mauricio A. \u00c1lvarez",
+      "Neil D. Lawrence"
+    ],
+    "abstract": "Recently there has been an increasing interest in methods that deal with multiple outputs. This has been motivated partly by frameworks like multitask learning, multisensor networks or structured output data. From a Gaussian processes perspective, the problem reduces to specifying an appropriate covariance function that, whilst being positive semi-definite, captures the dependencies between all the data points and across all the outputs. One approach to account for non-trivial correlations between outputs employs convolution processes. Under a latent function interpretation of the convolution transform we establish dependencies between output variables. The main drawbacks of this approach are the associated computational and storage demands. In this paper we address these issues. We present different sparse approximations for dependent output Gaussian processes constructed through the convolution formalism. We exploit the conditional independencies present naturally in the model. This leads to a form of the covariance similar in spirit to the so called PITC and FITC approximations for a single output. We show experimental results with synthetic and real data, in particular, we show results in pollution prediction, school exams score prediction and gene expression data.",
+    "published": "2009-11-26",
+    "categories": [
+      "stat.ML"
+    ],
+    "pdf_path": "data/papers\\0911.5107v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.02641v1",
+    "title": "Self-Distillation for Gaussian Process Regression and Classification",
+    "authors": [
+      "Kenneth Borup",
+      "Lars N\u00f8rvang Andersen"
+    ],
+    "abstract": "We propose two approaches to extend the notion of knowledge distillation to Gaussian Process Regression (GPR) and Gaussian Process Classification (GPC); data-centric and distribution-centric. The data-centric approach resembles most current distillation techniques for machine learning, and refits a model on deterministic predictions from the teacher, while the distribution-centric approach, re-uses the full probabilistic posterior for the next iteration. By analyzing the properties of these approaches, we show that the data-centric approach for GPR closely relates to known results for self-distillation of kernel ridge regression and that the distribution-centric approach for GPR corresponds to ordinary GPR with a very particular choice of hyperparameters. Furthermore, we demonstrate that the distribution-centric approach for GPC approximately corresponds to data duplication and a particular scaling of the covariance and that the data-centric approach for GPC requires redefining the model from a Binomial likelihood to a continuous Bernoulli likelihood to be well-specified. To the best of our knowledge, our proposed approaches are the first to formulate knowledge distillation specifically for Gaussian Process models.",
+    "published": "2023-04-05",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2304.02641v1.pdf"
+  },
+  {
+    "arxiv_id": "1206.6391v1",
+    "title": "Gaussian Process Quantile Regression using Expectation Propagation",
+    "authors": [
+      "Alexis Boukouvalas",
+      "Remi Barillec",
+      "Dan Cornford"
+    ],
+    "abstract": "Direct quantile regression involves estimating a given quantile of a response variable as a function of input variables. We present a new framework for direct quantile regression where a Gaussian process model is learned, minimising the expected tilted loss function. The integration required in learning is not analytically tractable so to speed up the learning we employ the Expectation Propagation algorithm. We describe how this work relates to other quantile regression methods and apply the method on both synthetic and real data sets. The method is shown to be competitive with state of the art methods whilst allowing for the leverage of the full Gaussian process probabilistic framework.",
+    "published": "2012-06-27",
+    "categories": [
+      "stat.ME",
+      "cs.LG",
+      "stat.AP"
+    ],
+    "pdf_path": "data/papers\\1206.6391v1.pdf"
+  },
+  {
+    "arxiv_id": "2004.00667v2",
+    "title": "Projection Pursuit Gaussian Process Regression",
+    "authors": [
+      "Gecheng Chen",
+      "Rui Tuo"
+    ],
+    "abstract": "A primary goal of computer experiments is to reconstruct the function given by the computer code via scattered evaluations. Traditional isotropic Gaussian process models suffer from the curse of dimensionality, when the input dimension is relatively high given limited data points. Gaussian process models with additive correlation functions are scalable to dimensionality, but they are more restrictive as they only work for additive functions. In this work, we consider a projection pursuit model, in which the nonparametric part is driven by an additive Gaussian process regression. We choose the dimension of the additive function higher than the original input dimension, and call this strategy \"dimension expansion\". We show that dimension expansion can help approximate more complex functions. A gradient descent algorithm is proposed for model training based on the maximum likelihood estimation. Simulation studies show that the proposed method outperforms the traditional Gaussian process models. The Supplementary Materials are available online.",
+    "published": "2020-04-01",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_path": "data/papers\\2004.00667v2.pdf"
+  }
+]

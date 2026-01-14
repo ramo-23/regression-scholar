@@ -1,0 +1,48 @@
+.header-root {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	background: var(--color-background-white);
+	border-bottom: 1px solid var(--color-border-light);
+	padding: 24px 48px;
+	border-radius: 0; /* override global .card rounding for header */
+	width: 100%;
+	box-shadow: none;
+	border-left: 0;
+	border-right: 0;
+	padding: 0; /* inner padding is on .header-inner */
+}
+
+.header-root .title {
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--color-primary-text);
+	line-height: 1.2;
+}
+
+.header-root .subtitle {
+	font-size: 14px;
+	color: var(--color-secondary-text);
+	margin-top: 6px;
+	font-weight: 400;
+}
+
+.header-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header-root .badge {
+  font-size: 13px;
+  color: #9ca3af;
+  padding: 6px 12px;
+  border: 1px solid var(--color-border-light);
+  border-radius: 4px;
+}

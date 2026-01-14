@@ -1,0 +1,34 @@
+<div class="app-shell">
+  <app-header></app-header>
+
+  <main class="container">
+    <section class="left">
+      <app-question-input
+        [initial]="question"
+        [loading]="loading"
+        (submitQuestion)="onAsk($event)"
+      ></app-question-input>
+
+      <app-suggested-questions
+        (selectQuestion)="onSuggestion($event)"
+      ></app-suggested-questions>
+      
+      <app-answer-card [answer]="answer" [loading]="loading"></app-answer-card>
+      
+      <app-sources-list [sources]="sources"></app-sources-list>
+    </section>
+
+    <section class="right">
+      
+    </section>
+  </main>
+
+  <footer class="footer-root">
+    <div class="footer-inner">
+      <div *ngIf="error" class="error">{{ error }}</div>
+      <div class="credit">© {{ currentYear }} Made by Ramokhele Manyeli</div>
+    </div>
+  </footer>
+</div>
+
+<router-outlet />
